@@ -40,3 +40,21 @@ sudo apt install nodejs
 sudo gem install travis
 ````
 
+## machinery-project
+inventory tool
+can clone suse systems, also works on ubuntu
+http://machinery-project.org
+
+````bash
+sudo apt-get install ruby ruby-dev gcc make zlib1g-dev xdg-utils golang
+sudo gem install rake
+sudo gem install machinery-tool
+````
+
+
+### usage
+````bash
+sudo machinery inspect localhost --ignore-scope changed-config-files,changed-managed-files,unmanaged-files
+sudo machinery show localhost
+sudo machinery export-html --html-dir test localhost
+````

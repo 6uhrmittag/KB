@@ -12,6 +12,15 @@
 - http://vagrantmanager.com/windows/
 - https://www.samsung.com/semiconductor/minisite/ssd/product/consumer/magician/
 
+
+# manual setup optional
+
+- Bootstrap Studio
+- Hosts File Editor
+- PostgreSQL
+- Cisco Packet Tracer 
+
+
 # via patchmypc
 
 see https://patchmypc.com/home-updater-download
@@ -52,9 +61,3 @@ just-install exeproxy
 just-install greenshot jetbrains-toolbox jdk jre node postman python3 ruby virtualbox-extpack wox vagrant
 ````
 
-# manual setup optional
-
-- Bootstrap Studio
-- Hosts File Editor
-- PostgreSQL
-- Cisco Packet Tracer 
