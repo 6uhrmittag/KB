@@ -49,6 +49,8 @@ just-install greenshot jetbrains-toolbox jdk jre node postman python3 ruby virtu
 - https://sourceforge.net/projects/xming/files/latest/download
 - http://vagrantmanager.com/windows/
 - https://www.samsung.com/semiconductor/minisite/ssd/product/consumer/magician/
+- Terminus via [/setup/windows/terminus/](/setup/windows/terminus/)
+
 
 
 # manual setup optional
