@@ -1,6 +1,9 @@
 - Tools
     - [Usefull tools](tools/)
     
+- Programming
+    - [Usefull stuff](programming/)
+    
 - Workstation Setup
 
   - Windows
