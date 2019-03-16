@@ -1,3 +1,8 @@
+# tools
+
+# Static site generators
+- https://getpublii.com/
+
 # Static documentation generators
 - https://docsify.js.org
 - https://heinventions.github.io/docnado-site/
