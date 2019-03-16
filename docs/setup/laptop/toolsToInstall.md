@@ -1,26 +1,3 @@
-# manual setup
-
-- https://www.binisoft.org/wfc
-- https://patchmypc.com/home-updater-download
-- https://github.com/jimradford/superputty
-- https://portal.office.com/account
-- https://hyper.is/#installation
-- https://cli-assets.heroku.com/heroku-x64.exe
-- https://sqlitebrowser.org/
-- https://www.screentogif.com/
-- https://sourceforge.net/projects/xming/files/latest/download
-- http://vagrantmanager.com/windows/
-- https://www.samsung.com/semiconductor/minisite/ssd/product/consumer/magician/
-
-
-# manual setup optional
-
-- Bootstrap Studio
-- Hosts File Editor
-- PostgreSQL
-- Cisco Packet Tracer 
-
-
 # via patchmypc
 
 see https://patchmypc.com/home-updater-download
@@ -60,4 +37,29 @@ msiexec.exe /i https://stable.just-install.it
 just-install exeproxy
 just-install greenshot jetbrains-toolbox jdk jre node postman python3 ruby virtualbox-extpack wox vagrant
 ````
+
+
+# manual setup
+
+- Pycharms via jetbrains-toolbox
+- Intellij via jetbrains-toolbox
+- https://www.binisoft.org/wfc
+- https://github.com/jimradford/superputty
+- https://portal.office.com/account
+- https://sourceforge.net/projects/xming/files/latest/download
+- http://vagrantmanager.com/windows/
+- https://www.samsung.com/semiconductor/minisite/ssd/product/consumer/magician/
+
+
+# manual setup optional
+
+- https://sqlitebrowser.org/
+- https://hyper.is/#installation
+- https://cli-assets.heroku.com/heroku-x64.exe
+- https://www.screentogif.com/
+- Bootstrap Studio
+- Hosts File Editor
+- PostgreSQL
+- Cisco Packet Tracer 
+
 
