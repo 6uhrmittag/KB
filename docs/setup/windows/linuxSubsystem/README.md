@@ -8,8 +8,10 @@ sudo apt-get install g++
 ````
 
 ## unattended-upgrades
+````bash
 sudo apt install unattended-upgrades
 vi /etc/apt/apt.conf.d/50unattended-upgrades
+````
 
 uncomment:
 ````text
