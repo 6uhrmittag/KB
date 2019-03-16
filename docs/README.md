@@ -1,3 +1,1 @@
-# Headline
-
-> An awesome project.
+# stuff i wish I could remember
