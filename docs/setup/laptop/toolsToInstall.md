@@ -50,7 +50,7 @@ just-install greenshot jetbrains-toolbox jdk jre node postman python3 ruby virtu
 - http://vagrantmanager.com/windows/
 - https://www.samsung.com/semiconductor/minisite/ssd/product/consumer/magician/
 - Terminus via [/setup/windows/terminus/](/setup/windows/terminus/)
-
+- [ToDoList 7.1](https://abstractspoon.weebly.com/)
 
 
 # manual setup optional

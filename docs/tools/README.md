@@ -17,6 +17,8 @@
 ## infrastructure diagrams
 - https://arcentry.com/ - Create Interactive Cloud Diagrams **untested yet**
 - https://cloudcraft.co/ - Create smart AWS diagrams **untested yet**
+- http://go.drawthe.net/ - network diagrams dynamically from a text file **untested yet**
+- https://gongxufan.github.io/web-topology/topologyEditor.html **untested yet**
 
 ## programming diagrams
 - https://www.heise.de/download/product/papdesigner-51889 - super simple Flowcharts, Programmablaufpläne, PAP
