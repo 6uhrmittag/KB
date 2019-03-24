@@ -40,3 +40,7 @@
 - https://www.developer.com/tech/article.php/3848981/The-7-Rules-for-Writing-World-Class-Technical-Documentation.htm
 - https://stoplight.io/blog/writing-documentation-when-you-arent-a-technical-writer-part-one-ef08a09870d1/
 - https://stoplight.io/blog/writing-documentation-when-you-arent-a-technical-writer-part-two-59997587cc2a/
+
+## in-depth info
+- https://wiki.linuxfoundation.org/networking/start
+- https://wiki.linuxfoundation.org/networking/kernel_flow
