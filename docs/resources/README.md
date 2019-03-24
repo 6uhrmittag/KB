@@ -9,6 +9,10 @@
     
 
 ## guides
+
+## misc
+- https://code-cartoons.com/ 
+
 ### linux
 - https://linuxjourney.com/
 - https://tutorials.ubuntu.com/
@@ -24,3 +28,4 @@
 - https://github.com/luong-komorebi/Awesome-Linux-Software
 - https://wiki.archlinux.org/index.php/list_of_applications
 
+## news

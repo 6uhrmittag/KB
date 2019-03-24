@@ -1,12 +1,12 @@
 - Tools
     - [Usefull tools](tools/)
+    - [Vagrant](tools/vagrant.md)
     
-- Programming
-    - [Usefull stuff](programming/)
-    
+- [Programming](programming/)
+- [Resources](resources/)
+   
 - Workstation Setup
-
-  - Windows
+  - [Windows](setup/windows/)
     - [Linux Subsystem](setup/windows/linuxSubsystem/)
     - [Terminus](setup/windows/terminus/)
   - Machines
