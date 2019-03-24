@@ -23,6 +23,7 @@
 
 - https://mermaidjs.github.io/gantt.html **untested yet**
 - https://www.archimatetool.com/ **untested yet**
+- https://vecta.io/app/edit/demo **untested yet**
 
 ### infrastructure diagrams
 - https://arcentry.com/ - Create Interactive Cloud Diagrams **untested yet**
@@ -49,6 +50,13 @@
 
 ### other
 - Create standard network protocol headers diagrams: http://www.luismg.com/protocol/ **untested yet**
+- Sankey diagram: https://bl.ocks.org/wvengen/cab9b01816490edb7083 **untested yet**
+- Railroad-diagram Generator: https://github.com/tabatkins/railroad-diagrams  **untested yet**
+
+### infographics
+- https://infogram.com/ **untested yet**
+- https://www.moovly.com/ **untested yet**
+- https://venngage.com/ **untested yet**
 
 ### stencils, icons
 - https://stenciltown.omnigroup.com/stencils/microservice-architecture/
