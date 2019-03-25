@@ -6,6 +6,7 @@
     
 - [Programming](programming/)
 - [Resources](resources/)
+- [Cheatsheet](cheatsheet/)
    
 - Workstation Setup
   - [Windows](setup/)
