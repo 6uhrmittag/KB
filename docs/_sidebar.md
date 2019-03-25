@@ -8,7 +8,7 @@
 - [Resources](resources/)
    
 - Workstation Setup
-  - [Windows](setup/windows/)
+  - [Windows](setup/)
     - [Linux Subsystem](setup/windows/linuxSubsystem/)
     - [Terminus](setup/windows/terminus/)
   - Machines
