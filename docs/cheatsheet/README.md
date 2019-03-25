@@ -2,6 +2,8 @@
 ````bash
 echo "Subject: Mailfunktion TEST" | sendmail mail@mail.de
 ````
+An Useraccount.
+!> **Important** Mail an root sollten immer irgendwo ankommen
 ````bash
 echo "Subject: Mailfunktion TEST" | sendmail root
 ````
@@ -34,31 +36,46 @@ mysql -u USERNAME -p --databases DATENBANK < DATEINAME.sql
 
 ## Without Useraccount
 
- `psql -d DATENBANKNAME --host=localhost -U USERNAME-W`
+ ````bash
+psql -d DATENBANKNAME --host=localhost -U USERNAME-W
+````
 
 ## With Useraccount
 
-`sudo -u USERNAME psql`
+ ````bash
+su - USERNAME
+psql
+````
 
 ## Use DB
 
-`psql -d DATENBANKNAME`
+ ````bash
+psql -d DATENBANKNAME
+````
 
 ## Information about Connection 
 
-`\conninfo`
+ ````bash
+\conninfo
+````
 
 ## Information about  User
 
-`\du`
+ ````bash
+\du
+````
 
 ## All info
 
-`\l`
+ ````bash
+\l
+````
 
 ## Logout
 
-`\q`
+ ````bash
+\q
+````
 
 # SVN
 ````bash
