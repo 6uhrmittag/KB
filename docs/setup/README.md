@@ -38,7 +38,7 @@ see https://just-install.github.io/
 ````powershell
 msiexec.exe /i https://stable.just-install.it
 just-install exeproxy
-just-install greenshot jetbrains-toolbox jdk jre node postman python3 ruby virtualbox-extpack wox vagrant
+just-install greenshot jetbrains-toolbox jdk jre node postman python3 ruby virtualbox-extpack wox vagrant ffmpeg
 ````
 
 
