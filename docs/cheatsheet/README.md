@@ -1,25 +1,31 @@
-# Mail
+# Usefull commands
+
+# Test Mail
+## An E-Mail Adresse
+
 ````bash
 echo "Subject: Mailfunktion TEST" | sendmail mail@mail.de
 ````
-An Useraccount.
-!> **Important** Mail an root sollten immer irgendwo ankommen
+## An Useraccount
+
+!> Mails an root sollten immer irgendwo ankommen
+
 ````bash
 echo "Subject: Mailfunktion TEST" | sendmail root
 ````
 
 # Mysql
 ## Show DBs
-````bash
+````mysql
 SHOW DATABASES;
 ````
-## Rights
-```bash
+## Show Rights
+```mysql
 SHOW GRANTS FOR 'root'@'localhost';
 ```
 
-## Loaded .conf
-````bash
+## Show Loaded .conf
+````mysql
 SHOW VARIABLES LIKE '%max_connect_errors%';
 ````
 ## create dump
@@ -37,7 +43,7 @@ mysql -u USERNAME -p --databases DATENBANK < DATEINAME.sql
 ## Without Useraccount
 
  ````bash
-psql -d DATENBANKNAME --host=localhost -U USERNAME-W
+psql -d DATENBANKNAME --host=localhost -U USERNAME -W
 ````
 
 ## With Useraccount
@@ -55,25 +61,25 @@ psql -d DATENBANKNAME
 
 ## Information about Connection 
 
- ````bash
+ ````postgresql
 \conninfo
 ````
 
-## Information about  User
+## Information about User
 
- ````bash
+ ````postgresql
 \du
 ````
 
 ## All info
 
- ````bash
+ ````postgresql
 \l
 ````
 
 ## Logout
 
- ````bash
+ ````postgresql
 \q
 ````
 

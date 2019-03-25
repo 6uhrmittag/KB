@@ -1,3 +1,7 @@
+# SubSystem (Ubuntu)
+
+Install Subsystem (ubuntu) and install+configure as shown below
+
 ## system
 ````bash
 sudo apt install aptitude
@@ -7,7 +11,7 @@ sudo apt-get install ruby2.5-dev
 sudo apt-get install g++
 ````
 
-## unattended-upgrades
+### unattended-upgrades
 ````bash
 sudo apt install unattended-upgrades
 vi /etc/apt/apt.conf.d/50unattended-upgrades
