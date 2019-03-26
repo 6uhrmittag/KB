@@ -10,7 +10,7 @@
 - https://github.com/myles/awesome-static-generators
 
 #  Diagrams
-## info
+
 - https://www.infoq.com/articles/crafting-architectural-diagrams
 - https://c4model.com/
 - https://news.ycombinator.com/item?id=18508284
@@ -60,3 +60,8 @@
 
 ### stencils, icons
 - https://stenciltown.omnigroup.com/stencils/microservice-architecture/
+
+
+## tools to check out
+- https://github.com/ellisonleao/vl
+- https://github.com/agarrharr/awesome-cli-apps
