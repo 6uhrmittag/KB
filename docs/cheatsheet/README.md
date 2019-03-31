@@ -99,3 +99,53 @@ svn commit FILE -m "MESSAGE"
 ````bash
 sudo virsh net-dhcp-leases default
 ````
+
+# RedHat
+## Software collection (RHSCL) 
+?> RHSCL allows usage of latest versions and parallel installation of tools.
+
+?> Tools from RHSCL have the prefix **rh-**
+
+?> Tools from RHSCL are installed at `/opt/rh`
+
+?> Tools from RHSCL are not in the PATH by default
+
+### Intro
+
+- Practical intro:
+    - https://www.covermymeds.com/main/insights/articles/red-hat-software-collections/
+- RedHat overview:
+    - https://developers.redhat.com/products/softwarecollections/overview/
+- Tutorial:
+    - https://developers.redhat.com/products/softwarecollections/hello-world/#fndtn-windows
+
+| Source | support life cycle | 
+| ---------- |------------|
+| Red Hat Enterprise Linux| up to 10 years           |
+| RHSCL         | 2-3 years           |
+
+
+
+### Available Software
+See: https://access.redhat.com/support/policy/updates/rhscl
+
+### Usage
+See: https://access.redhat.com/documentation/en-us/red_hat_software_collections/3/html/3.2_release_notes/chap-usage
+
+#### Put in PATH
+````bash
+scl enable software_collection... bash
+````
+####  put RHSCL in PATH permanently
+````bash
+vim ~/.bashrc
+source scl_source enable rh-php72
+````
+#### Start Service
+````bash
+service software_collection-service_name start
+````
+#### Enable Autostart
+````bash
+chkconfig software_collection-service_name on
+````
