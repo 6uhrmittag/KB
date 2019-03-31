@@ -65,3 +65,7 @@
 ## tools to check out
 - https://github.com/ellisonleao/vl
 - https://github.com/agarrharr/awesome-cli-apps
+- log viewer:
+    - https://github.com/tmoreno/open-log-viewer
+- interactive charts diagrams
+    - https://activechart.futureglobe.de/
