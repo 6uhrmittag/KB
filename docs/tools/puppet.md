@@ -13,3 +13,6 @@
 - https://www.example42.com/2017/04/03/puppet-ci-with-gitlab/
 - https://www.youtube.com/watch?v=qiv-ZVTb7bw
 - https://medium.com/@szinck/how-we-use-gitlab-at-the-province-of-nova-scotia-708b514cc47f
+- good example:
+    - https://github.com/example42/psick/blob/production/.gitlab-ci.yml
+    
