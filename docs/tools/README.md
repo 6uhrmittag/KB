@@ -21,6 +21,8 @@
 ## diagram tools
 ### general diagrams
 
+- https://sketchboard.me :star:
+    - free plan includes private diagrams
 - https://mermaidjs.github.io/gantt.html **untested yet**
 - https://www.archimatetool.com/ **untested yet**
 - https://vecta.io/app/edit/demo **untested yet**
@@ -69,3 +71,9 @@
     - https://github.com/tmoreno/open-log-viewer
 - interactive charts diagrams
     - https://activechart.futureglobe.de/
+    
+### Windows Subsystem
+- https://github.com/laurent22/wslpath
+- https://www.opsview.com/resources/application/blog/opsview-wsltools-beta-go
+    - monitoring and management interface for (WSL)
+- https://github.com/sirredbeard/Awesome-WSL#wsl-tools  
