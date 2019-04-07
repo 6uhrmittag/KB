@@ -21,7 +21,7 @@
 ## diagram tools
 ### general diagrams
 
-- https://sketchboard.me :star:
+- https://sketchboard.me :+1:
     - free plan includes private diagrams
 - https://mermaidjs.github.io/gantt.html **untested yet**
 - https://www.archimatetool.com/ **untested yet**
