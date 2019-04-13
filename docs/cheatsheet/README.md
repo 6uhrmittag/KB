@@ -100,6 +100,16 @@ svn commit FILE -m "MESSAGE"
 sudo virsh net-dhcp-leases default
 ````
 
+# Ubuntu/Debian
+
+## Change the keyboad map to DE
+
+````bash
+loadkeys de
+````
+
+
+
 # RedHat
 ## Software collection (RHSCL) 
 ?> RHSCL allows usage of latest versions and parallel installation of tools.
