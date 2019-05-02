@@ -29,6 +29,10 @@
 - https://github.com/luong-komorebi/Awesome-Linux-Software
 - https://wiki.archlinux.org/index.php/list_of_applications
 
+# databases
+## sql
+- https://sqlbolt.com - interactive! SQL tutorial
+
 
 # news
 
