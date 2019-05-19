@@ -1,6 +1,9 @@
 - Blog
     - [Today I learned](blog/til/)
     - [dev diary](blog/dev/)
+        - [admindojo](blog/dev/admindojo.md)
+        - [taskbutler](blog/dev/taskbutler.md)
+        - [other](blog/dev/other.md)
 - Tools
     - [Usefull tools](tools/)
     - [Vagrant](tools/vagrant.md)
