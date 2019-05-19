@@ -28,10 +28,15 @@
 - https://gist.github.com/Dev-Dipesh/2ac30a8a01afb7f65b2192928a875aa1
 
 # ES_PATH_CONF must be set to the configuration path
-root@ip-172-31-10-132:/etc/elasticsearch/es-01# export ES_PATH_CONF=/etc/elasticsearch/es-01
-root@ip-172-31-10-132:/etc/elasticsearch/es-01# /usr/share/elasticsearch/bin/elasticsearch-plugin install ingest-geoip
+````bash
+/etc/elasticsearch/es-01# export ES_PATH_CONF=/etc/elasticsearch/es-01
+/etc/elasticsearch/es-01# /usr/share/elasticsearch/bin/elasticsearch-plugin install ingest-geoip
+````
 
-#geopip
+
+# geopip
+
+````bash
 probleme via puppet installation.
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @     WARNING: plugin requires additional permissions     @
@@ -40,3 +45,4 @@ probleme via puppet installation.
 * java.lang.reflect.ReflectPermission suppressAccessChecks
 See http://docs.oracle.com/javase/8/docs/technotes/guides/security/permissions.html
 for descriptions of what these permissions allow and the associated risks.
+````

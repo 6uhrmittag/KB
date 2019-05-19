@@ -57,9 +57,9 @@ All enterprise-grade features require a paid subscription called X-Pack/Elastic 
 
 
 ## Checklist - Questions that need answers
-Setup
-Security
-Authentication
-User-Management
-Data retention
-Backup
+- [ ] Setup
+- [ ] Security
+- [ ] Authentication
+- [ ] User-Management
+- [ ] Data retention
+- [ ] Backup
