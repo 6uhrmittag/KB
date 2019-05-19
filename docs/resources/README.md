@@ -33,7 +33,9 @@
 ## sql
 - https://sqlbolt.com - interactive! SQL tutorial
 
-
+# testing
+## server testing
+- https://www.reddit.com/r/sysadmin/comments/4v2k7n/infrastructure_tests_and_beyond/
 # news
 
 # graphics
@@ -49,3 +51,11 @@
 # in-depth info
 - https://wiki.linuxfoundation.org/networking/start
 - https://wiki.linuxfoundation.org/networking/kernel_flow
+
+
+# ctf plattforms
+- https://github.com/We5ter/Awesome-Platforms/blob/master/CTF-Platforms.md
+- https://github.com/apsdehal/awesome-ctf
+- https://github.com/topics/ctf-platform
+- https://www.findbestopensource.com/tagged/ctf
+- http://list.rawsec.ml/ctf_platforms.html
