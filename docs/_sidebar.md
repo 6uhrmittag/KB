@@ -1,3 +1,6 @@
+- Blog
+    - [Today I learned](blog/til/)
+    - [dev diary](blog/dev/)
 - Tools
     - [Usefull tools](tools/)
     - [Vagrant](tools/vagrant.md)
