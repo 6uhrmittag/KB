@@ -26,6 +26,8 @@
 - https://mermaidjs.github.io/gantt.html **untested yet**
 - https://www.archimatetool.com/ **untested yet**
 - https://vecta.io/app/edit/demo **untested yet**
+- https://whimsical.com/ :+1:
+    - free plan includes 4 diagrams
 
 ### infrastructure diagrams
 - https://arcentry.com/ - Create Interactive Cloud Diagrams **untested yet**
