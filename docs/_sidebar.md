@@ -13,7 +13,8 @@
 - [Programming](programming/)
 - [Resources](resources/)
 - [Cheatsheet](cheatsheet/)
-   
+- [Checklists](checklists/)
+    - [Server](checklists/server.md)
 - Workstation Setup
     - [Windows](setup/)
     - [Linux Subsystem](setup/windows/linuxSubsystem/)
