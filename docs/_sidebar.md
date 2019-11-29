@@ -17,5 +17,4 @@
 - Workstation Setup
     - [Windows](setup/)
     - [Linux Subsystem](setup/windows/linuxSubsystem/)
-    - [Terminus](setup/windows/terminus/)
     - [Laptop](setup/windows/laptop/)
