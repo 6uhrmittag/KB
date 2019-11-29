@@ -23,7 +23,6 @@ see https://patchmypc.com/home-updater-download
 - MusicBrainz Picard
 - Oracle VM VirtualBox
 - Progress Telerik Fiddler
-- PuTTY
 - TeraCopy version
 - TreeSize Free
 - VLC media player 
@@ -44,6 +43,7 @@ just-install greenshot jetbrains-toolbox jdk jre node postman python3 ruby virtu
 
 # manual setup
 
+- [KiTTY] (http://kitty.9bis.net/)
 - Pycharms via jetbrains-toolbox
 - Intellij via jetbrains-toolbox
 - https://www.binisoft.org/wfc
@@ -52,9 +52,13 @@ just-install greenshot jetbrains-toolbox jdk jre node postman python3 ruby virtu
 - https://sourceforge.net/projects/xming/files/latest/download
 - http://vagrantmanager.com/windows/
 - https://www.samsung.com/semiconductor/minisite/ssd/product/consumer/magician/
-- Terminus via [/setup/windows/terminus/](/setup/windows/terminus/)
+- Terminal/Powershell AddOn [/setup/windows/terminal/](/setup/windows/terminal/)
 - [ToDoList 7.1](https://abstractspoon.weebly.com/)
 
+
+# Via WindowsStore
+
+- WIndows Terminal(Preview)
 
 # manual setup optional
 
