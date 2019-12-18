@@ -1,5 +1,12 @@
 # Today I learned
 
+!> Have replacement Parts on premise!
+
+Non ATX PSU failed - older machine, no replacement on hand. 24h shipping was delayed; no 2. to ship in stock.
+
+It can be cheaper to buy replacement parts you never need.<br/>
+<small>18.12.19</small>
+
 !> Don't be afraid! Just ship the MVP!
 
 Even after I thought [admindojo.org](https://admindojo.org) was ready for public, it took me days to publish a post at [reddit](https://www.reddit.com/r/linuxadmin/comments/bq4v33/admindojoorg_handson_sysadmin_training_feedback/) or hackernews.
