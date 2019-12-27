@@ -21,7 +21,6 @@ see https://patchmypc.com/home-updater-download
 - Mozilla Firefox
 - Mozilla Thunderbird
 - MusicBrainz Picard
-- Oracle VM VirtualBox
 - Progress Telerik Fiddler
 - TeraCopy version
 - TreeSize Free
@@ -30,19 +29,9 @@ see https://patchmypc.com/home-updater-download
 - WinRAR
 - Wireshark 
 
-# via just-install
-
-see https://just-install.github.io/
-
-````powershell
-msiexec.exe /i https://stable.just-install.it
-just-install exeproxy
-just-install greenshot jetbrains-toolbox jdk jre node postman python3 ruby virtualbox-extpack wox vagrant ffmpeg
-````
-
-
 # manual setup
-
+- Vagrant
+- Virtualbox (Check Version - must work with Vagrant)
 - [KiTTY] (http://kitty.9bis.net/)
 - Pycharms via jetbrains-toolbox
 - Intellij via jetbrains-toolbox
@@ -58,7 +47,7 @@ just-install greenshot jetbrains-toolbox jdk jre node postman python3 ruby virtu
 
 # Via WindowsStore
 
-- WIndows Terminal(Preview)
+- Windows Terminal(Preview)
 
 # manual setup optional
 
@@ -69,8 +58,9 @@ just-install greenshot jetbrains-toolbox jdk jre node postman python3 ruby virtu
 - Bootstrap Studio
 - Hosts File Editor
 - PostgreSQL
-- Cisco Packet Tracer 
-
+- Cisco Packet Tracer
+- Ruby
+- `gem install puppet --install-dir $VAGRANT_HOME/embedded/gems/`
 
 # manual config
 
