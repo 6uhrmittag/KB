@@ -60,7 +60,7 @@ see https://patchmypc.com/home-updater-download
 - PostgreSQL
 - Cisco Packet Tracer
 - Ruby
-- `gem install puppet --install-dir $VAGRANT_HOME/embedded/gems/`
+- in Admin Terminal: `gem install puppet --install-dir C:\HashiCorp\Vagrant\embedded\gems\2.2.6`
 
 # manual config
 
