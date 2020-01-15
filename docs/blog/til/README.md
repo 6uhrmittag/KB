@@ -1,5 +1,12 @@
 # Today I learned
 
+!> When stuck while debugging: change user/privileges!
+
+Shell Script failed. Tested it as root without any issues, changing the user to a non-root immediately gave enough hints to solve the issue.
+
+Test with a non-root user when stuck!<br/>
+<small>15.01.20</small>
+
 !> Have replacement Parts on premise!
 
 Non ATX PSU failed - older machine, no replacement on hand. 24h shipping was delayed; no 2. to ship in stock.

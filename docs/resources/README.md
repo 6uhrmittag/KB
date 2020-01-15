@@ -17,6 +17,7 @@
 - http://www.tldp.org/guides.html
 
 ## shell scripting
+- https://kvz.io/bash-best-practices.html
 - https://developer.apple.com/library/archive/documentation/OpenSource/Conceptual/ShellScripting/Introduction/Introduction.html#//apple_ref/doc/uid/TP40004268-TP40003516-SW1
 
 # cheatsheets
