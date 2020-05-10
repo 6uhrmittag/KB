@@ -1,8 +1,8 @@
 # Unanswered questions
 
-> [!NOTE]
-> An alert of type 'note' using global style 'callout'.
->
+> [!NOTE|label:question|icon:fas fa-question]
+> An alert of type 'note' usng global style 'callout'.
+> sdsd
 
 
 ?> test
