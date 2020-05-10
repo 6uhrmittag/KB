@@ -1,9 +1,5 @@
 # Unanswered questions
 
 > [!NOTE|label:question|icon:fas fa-question]
-> An alert of type 'note' usng global style 'callout'.
-> sdsd
-
-
-?> test
-ak
+> Why took the last full-website dump with `wget` so long. How to improve speed?!
+<small>10.05.20</small>
