@@ -1,5 +1,6 @@
 - Blog
     - [Today I learned](blog/til/)
+    - [Questions](blog/questions/)
     - [dev diary](blog/dev/)
         - [admindojo](blog/dev/admindojo.md)
         - [taskbutler](blog/dev/taskbutler.md)

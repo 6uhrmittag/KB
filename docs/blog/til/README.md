@@ -1,5 +1,12 @@
 # Today I learned
 
+!> Don't use exit(0) during development!
+
+Exitcode 0 doesn't trigger the CI to fail! I used it during development and pushed it to production. Ouch.
+
+<small>10.05.20</small>
+
+
 !> When stuck while debugging: change user/privileges!
 
 Shell Script failed. Tested it as root without any issues, changing the user to a non-root immediately gave enough hints to solve the issue.
