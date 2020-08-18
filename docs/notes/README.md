@@ -61,7 +61,21 @@ echo "two"
 
 Funfact: This can be used to use a script as `ENTRYPOINT` [inside a docker container](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#entrypoint).
 
+## VIM
 
+### jump to next occurence of  word under cursor
 
+`*`
 
+### open file in text
+
+- `gf` -> open file in current window
+- `:bf` -> go back to previous file
+- `STRG+w -> gw` open file in new tab
+
+- `gt` or `STRG+O` -> go to next tab
+
+https://vim.fandom.com/wiki/Using_tab_pages
+
+https://stackoverflow.com/questions/133626/how-do-you-return-from-gf-in-vim
 
