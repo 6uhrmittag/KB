@@ -65,15 +65,27 @@
 ### stencils, icons
 - https://stenciltown.omnigroup.com/stencils/microservice-architecture/
 
+## webserver
+### nginx 
+- nginx config generator :+1:
+    - https://www.digitalocean.com/community/tools/nginx#?
+
+## system tools
+### debug
+- DNS diagnostigs&monitoring tool: https://dnsdiag.org/  **untested yet**
+
+### system monitoring
+- all-in-one dashboard: https://nicolargo.github.io/glances/  **untested yet**
 
 ## tools to check out
-- https://github.com/ellisonleao/vl
 - https://github.com/agarrharr/awesome-cli-apps
 - log viewer:
     - https://github.com/tmoreno/open-log-viewer
 - interactive charts diagrams
     - https://activechart.futureglobe.de/
-    
+- Intercept & view all your HTTP(S) Mock endpoints or entire servers Rewrite, redirect, or inject errors
+    - https://httptoolkit.tech/
+
 ### Windows Subsystem
 - https://github.com/laurent22/wslpath
 - https://www.opsview.com/resources/application/blog/opsview-wsltools-beta-go

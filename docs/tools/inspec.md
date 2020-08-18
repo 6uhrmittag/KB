@@ -42,3 +42,6 @@ settings = YAML.load(path_to_settings)[RAILS_ENV].symbolize_keys
 user_settings = YAML.load(path_to_user_settings)[RAILS_ENV].symbolize_keys
 settings.merge!(user_settings)
 ````
+
+## Alternatives
+- https://github.com/ottomatica/opunit
