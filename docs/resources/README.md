@@ -16,7 +16,16 @@
     - some are very basic
 - http://www.tldp.org/guides.html
 
-## shell scripting
+## docker
+- Dockerfile In-Depth Guide Dockerfile In-Depth Guide - https://knowledgepill.it/posts/docker-build-from-dockerfile/
+
+## shell/scripting
+### shell
+- https://wiki.bash-hackers.org/scripting/newbie_traps
+- https://www.mylinuxplace.com/bash-special-variables/
+- https://www.gnu.org/software/bash/manual/html_node/Special-Parameters.html
+- https://bash.cyberciti.biz/guide/$IFS
+### scripting
 - https://kvz.io/bash-best-practices.html
 - https://developer.apple.com/library/archive/documentation/OpenSource/Conceptual/ShellScripting/Introduction/Introduction.html#//apple_ref/doc/uid/TP40004268-TP40003516-SW1
 

@@ -5,6 +5,7 @@
         - [admindojo](blog/dev/admindojo.md)
         - [taskbutler](blog/dev/taskbutler.md)
         - [other](blog/dev/other.md)
+- [Notes](notes/)
 - Tools
     - [Usefull tools](tools/)
     - [Vagrant](tools/vagrant.md)

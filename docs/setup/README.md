@@ -12,20 +12,15 @@ see https://patchmypc.com/home-updater-download
 - Git version
 - GitHub Desktop
 - Google Chrome
-- iTunes
-- Microsoft OneDrive
 - Microsoft Visual C++ 2010  x64 Redistributable
 - Microsoft Visual C++ 2010  x86 Redistributable
 - Microsoft Visual C++ 2012 Redistributable (x64)
 - Microsoft Visual C++ 2012 Redistributable (x86)
 - Mozilla Firefox
-- Mozilla Thunderbird
-- MusicBrainz Picard
 - Progress Telerik Fiddler
 - TeraCopy version
 - TreeSize Free
 - VLC media player 
-- WinDirStat
 - WinRAR
 - Wireshark 
 
@@ -34,15 +29,12 @@ see https://patchmypc.com/home-updater-download
 - Virtualbox (Check Version - must work with Vagrant)
 - [KiTTY] (http://kitty.9bis.net/)
 - Pycharms via jetbrains-toolbox
-- Intellij via jetbrains-toolbox
 - https://www.binisoft.org/wfc
 - https://github.com/jimradford/superputty
 - https://portal.office.com/account
 - https://sourceforge.net/projects/xming/files/latest/download
-- http://vagrantmanager.com/windows/
 - https://www.samsung.com/semiconductor/minisite/ssd/product/consumer/magician/
 - Terminal/Powershell AddOn [/setup/windows/terminal/](/setup/windows/terminal/)
-- [ToDoList 7.1](https://abstractspoon.weebly.com/)
 
 
 # Via WindowsStore
@@ -51,16 +43,8 @@ see https://patchmypc.com/home-updater-download
 
 # manual setup optional
 
-- https://sqlitebrowser.org/
-- https://hyper.is/#installation
-- https://cli-assets.heroku.com/heroku-x64.exe
 - https://www.screentogif.com/
-- Bootstrap Studio
 - Hosts File Editor
-- PostgreSQL
-- Cisco Packet Tracer
-- Ruby
-- in Admin Terminal: `gem install puppet --install-dir C:\HashiCorp\Vagrant\embedded\gems\2.2.6`
 
 # manual config
 
