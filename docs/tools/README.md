@@ -28,6 +28,7 @@
 - https://vecta.io/app/edit/demo **untested yet**
 - https://whimsical.com/ :+1:
     - free plan includes 4 diagrams
+- https://www.diagram.codes/ **untested yet**
 
 ### infrastructure diagrams
 - https://arcentry.com/ - Create Interactive Cloud Diagrams **untested yet**
@@ -35,6 +36,9 @@
 - http://go.drawthe.net/ - network diagrams dynamically from a text file **untested yet**
 - https://gongxufan.github.io/web-topology/topologyEditor.html **untested yet**
 - https://www.stackdraft.io/ **untested yet**
+- https://clouddraw.app/ **untested yet**
+- https://isoflow.io/ **untested yet** 
+- https://diagrams.mingrammer.com/ **untested yet**
 
 ### programming diagrams
 - https://www.heise.de/download/product/papdesigner-51889 - super simple Flowcharts, Programmablaufpläne, PAP
@@ -56,6 +60,8 @@
 - Create standard network protocol headers diagrams: http://www.luismg.com/protocol/ **untested yet**
 - Sankey diagram: https://bl.ocks.org/wvengen/cab9b01816490edb7083 **untested yet**
 - Railroad-diagram Generator: https://github.com/tabatkins/railroad-diagrams  **untested yet**
+- ilograph - interactive diagrams of code: https://www.ilograph.com/  **untested yet**
+- https://excalidraw.com/  **untested yet**
 
 ### infographics
 - https://infogram.com/ **untested yet**
