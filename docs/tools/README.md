@@ -15,8 +15,6 @@
 - https://c4model.com/
 - https://news.ycombinator.com/item?id=18508284
 
-### c4
-- https://github.com/RicardoNiepel/C4-PlantUML **untested yet**
 
 ## diagram tools
 ### general diagrams
@@ -52,6 +50,13 @@
 ###  JS charting libraries
 - https://laue.js.org/examples/#advanced-examples **untested yet**
 - https://frappe.io/datatable **untested yet**
+
+### c4
+- https://github.com/RicardoNiepel/C4-PlantUML **untested yet**
+
+### Mindmapping
+
+- Mindmap + Notes: https://brainio.com/#/ :+1:
 
 ### handwriting 
 - https://pbs.twimg.com/media/D2SwK46XcAAZ5hG.jpg
