@@ -159,3 +159,20 @@ service software_collection-service_name start
 ````bash
 chkconfig software_collection-service_name on
 ````
+
+## HTTP Testing
+
+````echo "www.google.de" >> testurls
+for url in $(cat testurls); do curl -I -L -S -s -w "%{url_effective} -> HTTP: %{http_version}" https://$url -o /dev/null ;echo ; done
+
+````
+Variables see: https://curl.haxx.se/docs/manpage.html
+````
+http_code
+http_version
+num_connects
+redirect_url
+size_download
+size_header
+speed_download
+````

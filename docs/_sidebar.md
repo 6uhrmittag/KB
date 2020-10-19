@@ -8,6 +8,7 @@
 - [Notes](notes/)
 - Tools
     - [Usefull tools](tools/)
+    - [Testing tools](tools/testing.md)
     - [Vagrant](tools/vagrant.md)
     - [InSpec](tools/inspec.md)
     - [Puppet](tools/puppet.md)
