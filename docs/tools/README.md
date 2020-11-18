@@ -27,6 +27,7 @@
 - https://whimsical.com/ :+1:
     - free plan includes 4 diagrams
 - https://www.diagram.codes/ **untested yet**
+- https://diagrams.mingrammer.com/ Duagran as Code(Python) **untested yet**
 
 ### infrastructure diagrams
 - https://arcentry.com/ - Create Interactive Cloud Diagrams **untested yet**
