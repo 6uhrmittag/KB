@@ -1,15 +1,6 @@
 # tools for testing
 
-## websites/http
-
-### websites/http - all-in-one/general
-
-- https://observatory.mozilla.org - all-in-one
-- https://internet.nl - check if your site uses Modern Internet Standards
-
-### websites/http - linting
-- https://webhint.io - webhint is a customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more 
-
+## offline/terminal tools
 ### websites/http - performance
 
 - https://github.com/hakluke/hakrawler - web crawler - `hakrawler -url google.de -plain | hakcheckurl`
@@ -17,6 +8,15 @@
 - https://github.com/Rowno/medic - bulk URL status checks + comparing - `cat urls.txt | medic -p check_before.log`
 - https://github.com/tomnomnom/assetfinder - find related domains and subdomains - `assetfinder target.com | hakrawler`
 - https://github.com/atomicptr/crab - check status code and response time of lists - `crab crawl:list urlstocheck`
+
+## online tools
+### websites/http - all-in-one/general
+
+- https://observatory.mozilla.org - all-in-one
+- https://internet.nl - check if your site uses Modern Internet Standards
+
+### websites/http - linting
+- https://webhint.io - webhint is a customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more 
 
 ### websites/http - security
 
