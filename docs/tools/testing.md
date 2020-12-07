@@ -1,6 +1,6 @@
 # tools for testing
 
-## offline/terminal tools
+## cli tools
 ### websites/http - performance
 
 - https://github.com/hakluke/hakrawler - web crawler - `hakrawler -url google.de -plain | hakcheckurl`
@@ -8,6 +8,25 @@
 - https://github.com/Rowno/medic - bulk URL status checks + comparing - `cat urls.txt | medic -p check_before.log`
 - https://github.com/tomnomnom/assetfinder - find related domains and subdomains - `assetfinder target.com | hakrawler`
 - https://github.com/atomicptr/crab - check status code and response time of lists - `crab crawl:list urlstocheck`
+
+### curl
+
+````
+echo "www.google.de" >> testurls
+for url in $(cat testurls); do curl -I -L -S -s -w "%{url_effective} -> HTTP: %{http_version}" https://$url -o /dev/null ;echo ; done
+````
+
+Variables see: https://curl.haxx.se/docs/manpage.html
+
+````
+http_code
+http_version
+num_connects
+redirect_url
+size_download
+size_header
+speed_download
+````
 
 ## online tools
 ### websites/http - all-in-one/general

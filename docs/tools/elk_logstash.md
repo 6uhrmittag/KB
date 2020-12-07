@@ -10,6 +10,7 @@ A collection of notes and things to think about before using ELK-Stack.
 - Alternatives
     - https://search-guard.com
     - https://github.com/sscarduzio/elasticsearch-readonlyrest-plugin/pulls
+  
 ### X-Pack / Elastic Stack Features
 All enterprise-grade features require a paid subscription called X-Pack/Elastic Stack Features(newer name).
 - Apparently its >4000$/node([Source](https://www.reddit.com/r/elasticsearch/comments/62n2h6/pricing_for_xpack_gold/))

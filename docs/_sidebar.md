@@ -16,7 +16,7 @@
 - [Programming](programming/)
 - [Resources](resources/)
 - [Cheatsheet](cheatsheet/)
-- [Checklists](checklists/)
+- Checklists
     - [Server](checklists/server.md)
 - Workstation Setup
     - [Windows](setup/)

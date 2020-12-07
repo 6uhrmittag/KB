@@ -1,23 +1,23 @@
 # tools
 
-# Static site generators
-## blog/cms
+## Static site generators
+### blog/cms
 - https://getpublii.com/
 
-##  Static documentation generators
+###  Static documentation generators
 - https://docsify.js.org
 - https://heinventions.github.io/docnado-site/
 - https://github.com/myles/awesome-static-generators
 
-#  Diagrams
+##  Diagrams
 
 - https://www.infoq.com/articles/crafting-architectural-diagrams
 - https://c4model.com/
 - https://news.ycombinator.com/item?id=18508284
 
 
-## diagram tools
-### general diagrams
+### diagram tools
+#### general diagrams
 
 - https://sketchboard.me :+1:
     - free plan includes private diagrams
@@ -29,7 +29,7 @@
 - https://www.diagram.codes/ **untested yet**
 - https://diagrams.mingrammer.com/ Duagran as Code(Python) **untested yet**
 
-### infrastructure diagrams
+#### infrastructure diagrams
 - https://arcentry.com/ - Create Interactive Cloud Diagrams **untested yet**
 - https://cloudcraft.co/ - Create smart AWS diagrams **untested yet**
 - http://go.drawthe.net/ - network diagrams dynamically from a text file **untested yet**
@@ -39,57 +39,57 @@
 - https://isoflow.io/ **untested yet** 
 - https://diagrams.mingrammer.com/ **untested yet**
 
-### programming diagrams
+#### programming diagrams
 - https://www.heise.de/download/product/papdesigner-51889 - super simple Flowcharts, Programmablaufpläne, PAP
 - http://www.nomnoml.com/
 - https://github.com/gaphor/gaphor **untested yet**
 
-### BPMN - Business Process Model and Notation
+#### BPMN - Business Process Model and Notation
 - https://camunda.com/de/download/modeler/ **untested yet**
 - https://demo.bpmn.io/new **untested yet**
 
-###  JS charting libraries
+####  JS charting libraries
 - https://laue.js.org/examples/#advanced-examples **untested yet**
 - https://frappe.io/datatable **untested yet**
 
-### c4
+#### c4
 - https://github.com/RicardoNiepel/C4-PlantUML **untested yet**
 
-### Mindmapping
+#### Mindmapping
 
 - Mindmap + Notes: https://brainio.com/#/ :+1:
 
-### handwriting 
+#### handwriting 
 - https://pbs.twimg.com/media/D2SwK46XcAAZ5hG.jpg
 
-### other
+#### other
 - Create standard network protocol headers diagrams: http://www.luismg.com/protocol/ **untested yet**
 - Sankey diagram: https://bl.ocks.org/wvengen/cab9b01816490edb7083 **untested yet**
 - Railroad-diagram Generator: https://github.com/tabatkins/railroad-diagrams  **untested yet**
 - ilograph - interactive diagrams of code: https://www.ilograph.com/  **untested yet**
 - https://excalidraw.com/  **untested yet**
 
-### infographics
+#### infographics
 - https://infogram.com/ **untested yet**
 - https://www.moovly.com/ **untested yet**
 - https://venngage.com/ **untested yet**
 
-### stencils, icons
+#### stencils, icons
 - https://stenciltown.omnigroup.com/stencils/microservice-architecture/
 
-## webserver
-### nginx 
+### webserver
+#### nginx 
 - nginx config generator :+1:
     - https://www.digitalocean.com/community/tools/nginx#?
 
-## system tools
-### debug
+### system tools
+#### debug
 - DNS diagnostigs&monitoring tool: https://dnsdiag.org/  **untested yet**
 
-### system monitoring
+#### system monitoring
 - all-in-one dashboard: https://nicolargo.github.io/glances/  **untested yet**
 
-## tools to check out
+### tools to check out
 - https://github.com/agarrharr/awesome-cli-apps
 - log viewer:
     - https://github.com/tmoreno/open-log-viewer
@@ -98,7 +98,7 @@
 - Intercept & view all your HTTP(S) Mock endpoints or entire servers Rewrite, redirect, or inject errors
     - https://httptoolkit.tech/
 
-### Windows Subsystem
+#### Windows Subsystem
 - https://github.com/laurent22/wslpath
 - https://www.opsview.com/resources/application/blog/opsview-wsltools-beta-go
     - monitoring and management interface for (WSL)

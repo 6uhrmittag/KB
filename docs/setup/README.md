@@ -17,34 +17,34 @@ see https://patchmypc.com/home-updater-download
 - Microsoft Visual C++ 2012 Redistributable (x64)
 - Microsoft Visual C++ 2012 Redistributable (x86)
 - Mozilla Firefox
-- Progress Telerik Fiddler
 - TeraCopy version
 - TreeSize Free
-- VLC media player 
+- VLC media player
 - WinRAR
 - Wireshark 
 
 # manual setup
 - Vagrant
 - Virtualbox (Check Version - must work with Vagrant)
-- [KiTTY] (http://kitty.9bis.net/)
+- [KiTTY](http://kitty.9bis.net/)
 - Pycharms via jetbrains-toolbox
 - https://www.binisoft.org/wfc
 - https://github.com/jimradford/superputty
 - https://portal.office.com/account
-- https://sourceforge.net/projects/xming/files/latest/download
+- https://sourceforge.net/projects/vcxsrv/
 - https://www.samsung.com/semiconductor/minisite/ssd/product/consumer/magician/
 - Terminal/Powershell AddOn [/setup/windows/terminal/](/setup/windows/terminal/)
-
+- https://mpv.io/installation/
 
 # Via WindowsStore
 
-- Windows Terminal(Preview)
+- Windows Terminal: https://aka.ms/terminal
+  - https://github.com/microsoft/terminal
 
 # manual setup optional
 
-- https://www.screentogif.com/
-- Hosts File Editor
+- ScreenToGif: https://www.screentogif.com/
+- Hosts File Editor: https://hostsfileeditor.com/
 
 # manual config
 
