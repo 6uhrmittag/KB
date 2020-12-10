@@ -14,6 +14,12 @@ echo "Subject: Mailfunktion TEST" | sendmail mail@mail.de
 echo "Subject: Mailfunktion TEST" | sendmail root
 ````
 
+# Shell
+## Autoformat as table
+````bash
+echo "one two"| column -t -s' '
+````
+
 # Mysql
 ## Show DBs
 ````mysql

@@ -13,7 +13,7 @@
 
 ````
 echo "www.google.de" >> testurls
-for url in $(cat testurls); do curl -I -L -S -s -w "%{url_effective} -> HTTP: %{http_version}" https://$url -o /dev/null ;echo ; done
+for url in $(cat testurls); do curl -I -L -S -s -w "%{url_effective} %{http_version}" https://$url -o /dev/null ;echo ; done | column -t -s' '
 ````
 
 Variables see: https://curl.haxx.se/docs/manpage.html
@@ -33,6 +33,7 @@ speed_download
 
 - https://observatory.mozilla.org - all-in-one
 - https://internet.nl - check if your site uses Modern Internet Standards
+- https://check-your-website.server-daten.de
 
 ### websites/http - linting
 - https://webhint.io - webhint is a customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more 
