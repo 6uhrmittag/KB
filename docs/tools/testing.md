@@ -13,7 +13,7 @@
 
 ````
 echo "www.google.de" >> testurls
-for url in $(cat testurls); do curl -I -L -S -s -w "%{url_effective} %{http_version}" https://$url -o /dev/null ;echo ; done | column -t -s' '
+for url in $(cat testurls); do curl -I -L -S -s -w "%{url_effective} %{http_version}" https://$url -o /dev/null ;echo ; done | column -t -s' ' | grep -E --color "200|$"
 ````
 
 Variables see: https://curl.haxx.se/docs/manpage.html
