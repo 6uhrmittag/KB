@@ -94,6 +94,12 @@
 ### system monitoring
 - all-in-one dashboard: https://nicolargo.github.io/glances/  **untested yet**
 
+## Windows Subsystem
+- https://github.com/laurent22/wslpath
+- https://www.opsview.com/resources/application/blog/opsview-wsltools-beta-go
+    - monitoring and management interface for (WSL)
+- https://github.com/sirredbeard/Awesome-WSL#wsl-tools  
+
 ## tools to check out
 - https://github.com/agarrharr/awesome-cli-apps
 - log viewer:
@@ -102,9 +108,3 @@
     - https://activechart.futureglobe.de/
 - Intercept & view all your HTTP(S) Mock endpoints or entire servers Rewrite, redirect, or inject errors
     - https://httptoolkit.tech/
-
-## Windows Subsystem
-- https://github.com/laurent22/wslpath
-- https://www.opsview.com/resources/application/blog/opsview-wsltools-beta-go
-    - monitoring and management interface for (WSL)
-- https://github.com/sirredbeard/Awesome-WSL#wsl-tools  
