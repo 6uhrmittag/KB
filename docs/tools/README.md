@@ -89,16 +89,43 @@
 
 ## system tools
 ### debug
-- DNS diagnostigs&monitoring tool: https://dnsdiag.org/  **untested yet**
+- DNS diagnostigs&monitoring tool: https://dnsdiag.org **untested yet**
 
 ### system monitoring
-- all-in-one dashboard: https://nicolargo.github.io/glances/  **untested yet**
+- all-in-one dashboard: https://nicolargo.github.io/glances/ **untested yet**
 
 ## Windows Subsystem
 - https://github.com/laurent22/wslpath
 - https://www.opsview.com/resources/application/blog/opsview-wsltools-beta-go
     - monitoring and management interface for (WSL)
 - https://github.com/sirredbeard/Awesome-WSL#wsl-tools  
+
+## knowledge management
+
+## wikis/text
+- https://www.getoutline.com **untested yet**
+  - apparently there is a free, selfhosted version @ https://hub.docker.com/r/outlinewiki/outline
+
+## media
+
+## Media Libraries
+- https://en.eagle.cool :+1:
+  - win&mac
+  - no free version
+- https://www.are.na **untested yet**
+  - limited free version
+- https://www.dropmark.com **untested yet**
+  - limited free version
+- https://raindrop.io **untested yet**
+  - limited free version
+- https://hypershoot.com **untested yet**
+  - limited free version
+- https://web.ggather.com **untested yet**
+  - limited free version
+- https://references.design **untested yet**
+  - win&mac
+  - no free version
+  - only 10€
 
 ## tools to check out
 - https://github.com/agarrharr/awesome-cli-apps
