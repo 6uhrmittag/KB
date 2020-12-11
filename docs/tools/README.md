@@ -15,7 +15,6 @@
 - https://c4model.com/
 - https://news.ycombinator.com/item?id=18508284
 
-
 ### diagram tools
 #### general diagrams
 
@@ -77,19 +76,25 @@
 #### stencils, icons
 - https://stenciltown.omnigroup.com/stencils/microservice-architecture/
 
-### webserver
-#### nginx 
+## webserver
+
+- SSL Configuration Generator by Mozilla :+1:
+  - https://ssl-config.mozilla.org/
+
+### nginx 
 - nginx config generator :+1:
     - https://www.digitalocean.com/community/tools/nginx#?
+- Nginx config testing
+    - https://github.com/yandex/gixy
 
-### system tools
-#### debug
+## system tools
+### debug
 - DNS diagnostigs&monitoring tool: https://dnsdiag.org/  **untested yet**
 
-#### system monitoring
+### system monitoring
 - all-in-one dashboard: https://nicolargo.github.io/glances/  **untested yet**
 
-### tools to check out
+## tools to check out
 - https://github.com/agarrharr/awesome-cli-apps
 - log viewer:
     - https://github.com/tmoreno/open-log-viewer
@@ -98,7 +103,7 @@
 - Intercept & view all your HTTP(S) Mock endpoints or entire servers Rewrite, redirect, or inject errors
     - https://httptoolkit.tech/
 
-#### Windows Subsystem
+## Windows Subsystem
 - https://github.com/laurent22/wslpath
 - https://www.opsview.com/resources/application/blog/opsview-wsltools-beta-go
     - monitoring and management interface for (WSL)
