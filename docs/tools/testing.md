@@ -28,6 +28,13 @@ size_header
 speed_download
 ````
 
+### httping
+https://linux.die.net/man/1/httping
+
+````cli
+httping $URL -b -l -s -W -i 1  | ts
+````
+
 ## online tools
 ### websites/http - all-in-one/general
 
