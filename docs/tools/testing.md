@@ -80,6 +80,7 @@ httping $URL -b -l -s -W -i 1  | ts
 
 ### websites/http - misc
 
+- https://httpstatus.io - bulk check HTTP Status
 - https://web.dev - modern capabilities on your own sites
 - https://realfavicongenerator.net/favicon_checker - Is your favicon perfect
 - https://favicomatic.com/favicon-test - check if your website looks pretty on every browser and device
