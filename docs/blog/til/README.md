@@ -1,5 +1,63 @@
 # Today I learned
 
+## 2020 - what I've learned, done and thought
+
+### IT, software, etc.
+
+- proactive virtual assistants will change a lot of lives. [Building one with taskbutler](https://twitter.com/6uhrmittag/status/1274297420445290496) improved my life tremendously
+- deploying a working prototype is better than deploying nothing
+- I still prefer VMs(vagrant) over containers
+- WSL is amazing
+    - using GUI apps via x-server is already possible and will be amazing, once it's seamless 
+- 4k is great for coding but negligible for movies
+- Dolby Atmos for Headphones makes my 5.1 sound system jealous 
+- cloud gaming - even with 500Mbit internet - is more frustrating than 30fps on low graphics
+- all linux guides should include `moreutils`, `column` and `rep -E --color "WordToHighlight|$"`
+- I still don't understand how Python should replace bash scripts
+
+### life, health
+
+- every movement involves moving weight and so, weight training improves every movement in life
+    - carrying groceries is part of life and shouldn't be hard work. working out improves everyday life 
+- a strict workout routine is easier to push through than random training  
+- I still prefer real books over ebooks
+- meditation and journaling helps, even when done sporadically
+- remote work isn't as easy as it sounds
+    - it's easier with a fun job and fun coworkers
+- using Uber/caps to move isn't fun, but works
+- buying half the stuff for double the cost increases the quality of life without extra cost
+- having strict routines doesn't make you a robot. It makes life much easier
+- I sometimes miss the StartUp community for their love of trying new things, sharing and positivity
+- I still don't really know how to connect with people
+- I love sharing ideas and learnings and I should do it more
+- I still look up to my mentors. More than ever
+- I believe in Craftsmanship, the values of master craftsmen and in [Craftsmanship in Software](https://www.oreilly.com/library/view/apprenticeship-patterns/9780596806842/)
+- starting to learn keyboard/piano brought back my joy of learning new(hard) things
+- doing puzzles is a great way of doing something without doing anything
+- lives can't be compared or rated. Don't rate lives of others and don't let others rate your life
+- (I hope) getting 30 doesn't change anything
+
+### home
+
+- Bamboo Sheets are amazing
+- when in doubt, try Feng shui
+- having tons of food in the fridge only produces more waste
+- cordless vacuum cleaners are amazing and don't need >20min battery life
+    - easy to use tools are key to developing routines
+- decoration does improve the quality of life more than I thought
+- I still can not believe the cost of a "good" ergonomic office chairs and why it's not normal to own one
+- I think I prefer a loud neighbourhood over a quiet one. Are they quiet on purpose, or because they don't exist at all?
+
+### personal projects, contributions, etc.
+
+- r.i.p. [admindojo.org](https://twitter.com/6uhrmittag/status/1137113822609772554). I still believe in you
+- Taskbutler got a few cool updates
+    - [proactive virtual assistant](https://github.com/6uhrmittag/taskbutler/tree/feature-assistentrelay)
+    - [calculate the total of a shopping list](https://github.com/6uhrmittag/taskbutler/releases/tag/2.2.4)
+    - [track incoming parcels(unfinished)](https://github.com/6uhrmittag/taskbutler/tree/feature_parceltracking)
+- I made my first donation to a personal project, and it felt awesome
+- I think I've found my first minor security bug, that allows checking the [actual existence of a bank account number by IBAN](https://twitter.com/6uhrmittag/status/1290898819375411200). They still haven't fixed it, so it might be intentionally
+
 ## 10.05.20
 !> Don't use exit(0) during development!
 
