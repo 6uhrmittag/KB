@@ -100,6 +100,12 @@
     - monitoring and management interface for (WSL)
 - https://github.com/sirredbeard/Awesome-WSL#wsl-tools  
 
+## Windows Tools
+
+- O&O RegEditor: https://www.oo-software.com/de/ooregeditor
+  - free
+  - legit developer, no scam/risk etc.
+  
 ## knowledge management
 
 ## wikis/text
