@@ -105,6 +105,8 @@
 - O&O RegEditor: https://www.oo-software.com/de/ooregeditor
   - free
   - legit developer, no scam/risk etc.
+- https://docs.microsoft.com/en-us/sysinternals/
+  - in terminal, without download: `live.sysinternals.com/<toolname>`
   
 ## knowledge management
 
