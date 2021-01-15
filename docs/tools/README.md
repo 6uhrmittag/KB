@@ -76,6 +76,10 @@
 #### stencils, icons
 - https://stenciltown.omnigroup.com/stencils/microservice-architecture/
 
+#### mockups
+
+- imagineUI - mockups-as-code too: http://imagineui.io/en/ **untested yet**
+
 ## webserver
 
 - SSL Configuration Generator by Mozilla :+1:
@@ -100,7 +104,7 @@
     - monitoring and management interface for (WSL)
 - https://github.com/sirredbeard/Awesome-WSL#wsl-tools  
 
-## Windows Tools
+## Windows Admin Tools
 
 - O&O RegEditor: https://www.oo-software.com/de/ooregeditor
   - free
@@ -108,6 +112,10 @@
 - https://docs.microsoft.com/en-us/sysinternals/
   - in terminal, without download: `live.sysinternals.com/<toolname>`
   
+## Windows Misc. Tools (to install for daily use)
+
+- Windows Explorer Media-File preview(by pressing spacebar): https://github.com/QL-Win/QuickLook
+
 ## knowledge management
 
 ## wikis/text
