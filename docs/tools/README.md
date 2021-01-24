@@ -125,18 +125,13 @@
 
 - Windows Explorer Media-File preview(by pressing spacebar): https://github.com/QL-Win/QuickLook
 
-## knowledge management
-
-## wikis/text
-- https://www.getoutline.com **untested yet**
-  - apparently there is a free, selfhosted version @ https://hub.docker.com/r/outlinewiki/outline
-
 ## media
 
 ## Media Libraries
 - https://en.eagle.cool :+1:
   - win&mac
   - no free version
+  - best tool available
 - https://www.are.na **untested yet**
   - limited free version
 - https://www.dropmark.com **untested yet**
