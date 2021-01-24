@@ -1,7 +1,16 @@
 # tools
 
-## Static site generators
-### blog/cms
+## website frameworks/generators
+### wikis
+- Gitbook(note: unsupported now): https://github.com/GitbookIO/gitbook
+  - see example: https://github.com/6uhrmittag/website-slashlog.org-gitbook-selfhosted
+- wiki.js https://wiki.js.org/
+  - looks amazing, but is super slow and heavy. Isn't like docsify.js.org
+- Outlike - https://www.getoutline.com/
+  - looks promising. No free version
+  - technically possible to selfhost via Docker: https://github.com/chsasank/outline-wiki-docker-compose
+
+### Static blog/cms generators
 - https://getpublii.com/
 
 ###  Static documentation generators
