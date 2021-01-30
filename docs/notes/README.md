@@ -2,9 +2,8 @@
 
 ## Techniken
 
-Die Idee, dass _note-making_ sinnvoller ist, als _note-taking_, ist keine neue.
-Edgar Wright hat bereits vor 40 Jahren die Vorteile von _note-making_ beschrieben - weil hierbei Informationen wirklich verbunden (und somit langzeit-gespeichert) werden(Buch: On Your Own by Edgar Wright\).
-Wissenschaftliche Arbeiten scheinen zu bestätigen, dass das einfache _note-taking_ kaum einen Langzeiteffekt hat.
+Die Idee, dass _note-making_ sinnvoller ist, als _note-taking_, ist keine neue.  
+Edgar Wright hat bereits vor 40 Jahren die Vorteile von _note-making_ beschrieben - weil hierbei Informationen wirklich verbunden (und somit langzeit-gespeichert) werden(Buch: On Your Own by Edgar Wright). Wissenschaftliche Arbeiten scheinen zu bestätigen, dass das einfache _note-taking_ kaum einen Langzeiteffekt hat.  
 Wichtig beim Erstellen von Notizen ist vor allem, dass eigene **umformulieren** in die eigene Sprache, das **Verknüpfen** mit ähnlichen Themen und das tiefe verknüpfen **mit eigenem Wissen**.[1]
 
 Eine der Arten, alle nötigen Schritte zu vereinen ist diese hier - das Erstellen eines digitalen Gartens, indem das eigene Wissen heranwächst.
