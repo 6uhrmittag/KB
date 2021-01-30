@@ -5,7 +5,9 @@
         - [admindojo](blog/dev/admindojo.md)
         - [taskbutler](blog/dev/taskbutler.md)
         - [other](blog/dev/other.md)
-- [Notes](notes/)
+- Notes
+    - [Notes](notes/)
+    - [random](notes/random_computer.md)
 - Tools
     - [Usefull tools](tools/)
     - [Testing tools](tools/testing.md)

@@ -1,81 +1,29 @@
-# Notes
+# Notetaking
 
-## Docker
+## Techniken
 
-### ARG/ENV trick
+Die Idee, dass _note-making_ sinnvoller ist, als _note-taking_, ist keine neue.
+Edgar Wright hat bereits vor 40 Jahren die Vorteile von _note-making_ beschrieben - weil hierbei Informationen wirklich verbunden (und somit langzeit-gespeichert) werden(Buch: On Your Own by Edgar Wright\).
+Wissenschaftliche Arbeiten scheinen zu bestätigen, dass das einfache _note-taking_ kaum einen Langzeiteffekt hat.
+Wichtig beim Erstellen von Notizen ist vor allem, dass eigene **umformulieren** in die eigene Sprache, das **Verknüpfen** mit ähnlichen Themen und das tiefe verknüpfen **mit eigenem Wissen**.[1]
 
-Use build-args as ENVs later in the container:  ``docker build --build-arg PG_MAJOR=10``
+Eine der Arten, alle nötigen Schritte zu vereinen ist diese hier - das Erstellen eines digitalen Gartens, indem das eigene Wissen heranwächst.
 
-````
-ARG PG_MAJOR
-ENV PG_MAJOR=${PG_MAJOR:-11}
-````
+### Mindmap
 
-### ADD or COPY
+Es gibt viele verschiedene Arten von "mentalen Karten". z.B. Mental maps, Cognitive maps, Mind maps, Concept maps.
 
-- Always use `COPY` unless you know you need `ADD`
-- `COPY` each file individually to enable best use of layers
+#### Mentaler Atlas
 
-### CMD
+Interessant ist die Idee eines _mentalen Atlasses_ - hier wird die Karte in einen komplexen, mentalen Atlas erweitert, in dem alle Ideen und alles Wissen verknüpft ist.
 
-Provides defaultvalues for the `Entrypoint`:
+> A mental atlas is not just a way to think; it’s a way to explore. Interconnected maps form a dynamic, ever-evolving system where new information and new questions ripple across your internal web of thought to re-shape your beliefs.
 
-````
-CMD ["executable","param1","param2"]
-````
+#### Weiterführend
 
-- Could be a script too: https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#entrypoint
+1. [https://nesslabs.com/mental-atlas](https://nesslabs.com/mental-atlas)
+2. [https://nesslabs.com/thinking-in-maps](https://nesslabs.com/thinking-in-maps)
 
-## Bash
+## Quellen
 
-### $@
-
-`$@` is a special variable that expands all passed arguments as strings. Can be used in Scripts to form parameters
-
-````
-#/usr/bin/env bash
-echo $@
-````
-
-````
-./script.sh one two three
-# output: "one two three"
-````
-
-### exec
-
-`exec` is a bash buit-in command that replaces the current shell with the parameter of exec.
-
-````
-#/usr/bin/env bash
-exec echo "one"
-echo "two"
-````
-
-````
-./script.sh one two three
-# output: "one"
-````
-
-`echo "two"` never runs because the script gets repaces by `echo one`, which exits after outputting "one".
-
-Funfact: This can be used to use a script as `ENTRYPOINT` [inside a docker container](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#entrypoint).
-
-## VIM
-
-### jump to next occurence of  word under cursor
-
-`*`
-
-### open file in text
-
-- `gf` -> open file in current window
-- `:bf` -> go back to previous file
-- `STRG+w -> gw` open file in new tab
-
-- `gt` or `STRG+O` -> go to next tab
-
-https://vim.fandom.com/wiki/Using_tab_pages
-
-https://stackoverflow.com/questions/133626/how-do-you-return-from-gf-in-vim
-
+1. [https://nesslabs.com/from-note-taking-to-note-making](https://nesslabs.com/from-note-taking-to-note-making)
