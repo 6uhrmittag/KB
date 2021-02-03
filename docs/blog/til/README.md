@@ -12,7 +12,7 @@
 - 4k is great for coding but negligible for movies
 - Dolby Atmos for Headphones makes my 5.1 sound system jealous 
 - cloud gaming - even with 500Mbit internet - is more frustrating than 30fps on low graphics
-- all linux guides should include `moreutils`, `column` and `rep -E --color "WordToHighlight|$"`
+- all linux guides should include `moreutils`, `column` and `grep -E --color "WordToHighlight|$"`
 - I still don't understand how Python should replace bash scripts
 
 ### life, health
