@@ -39,7 +39,7 @@
 
 ### home
 
-- Bamboo Sheets are amazing
+- Bamboo Sheets are amazing. Bamboo feels like silk and is says cool, even in hot summer nights
 - when in doubt, try Feng shui
 - having tons of food in the fridge only produces more waste
 - cordless vacuum cleaners are amazing and don't need >20min battery life
