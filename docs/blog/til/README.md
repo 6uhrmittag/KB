@@ -24,10 +24,10 @@
 - meditation and journaling helps, even when done sporadically
 - remote work isn't as easy as it sounds
     - it's easier with a fun job and fun coworkers
-- using Uber/caps to move isn't fun, but works
+- using Uber/caps to move(the household not the body) isn't fun, but works
 - buying half the stuff for double the cost increases the quality of life without extra cost
 - having strict routines doesn't make you a robot. It makes life much easier
-- I sometimes miss the StartUp community for their love of trying new things, sharing and positivity
+- I sometimes miss the StartUp community for their love of trying new things, knowledge sharing and their never ending positivity
 - I still don't really know how to connect with people
 - I love sharing ideas and learnings and I should do it more
 - I still look up to my mentors. More than ever
@@ -45,18 +45,18 @@
 - cordless vacuum cleaners are amazing and don't need >20min battery life
     - easy to use tools are key to developing routines
 - decoration does improve the quality of life more than I thought
-- I still can not believe the cost of a "good" ergonomic office chairs and why it's not normal to own one
+- I still can not believe how expensive "good" ergonomic office chairs are and why it's not normal to own one
 - I think I prefer a loud neighbourhood over a quiet one. Are they quiet on purpose, or because they don't exist at all?
 
 ### personal projects, contributions, etc.
 
-- r.i.p. [admindojo.org](https://twitter.com/6uhrmittag/status/1137113822609772554). I still believe in you
+- r.i.p. [admindojo.org](https://twitter.com/6uhrmittag/status/1137113822609772554). I still believe in you, but hosting you on azure was a pain(but [CTFd](https://github.com/CTFd/CTFd) is a great platform to host Capture The Flag events).
 - Taskbutler got a few cool updates
     - [proactive virtual assistant](https://github.com/6uhrmittag/taskbutler/tree/feature-assistentrelay)
     - [calculate the total of a shopping list](https://github.com/6uhrmittag/taskbutler/releases/tag/2.2.4)
     - [track incoming parcels(unfinished)](https://github.com/6uhrmittag/taskbutler/tree/feature_parceltracking)
 - I made my first donation to a personal project, and it felt awesome
-- I think I've found my first minor security bug, that allows checking the [actual existence of a bank account number by IBAN](https://twitter.com/6uhrmittag/status/1290898819375411200). They still haven't fixed it, so it might be intentionally
+- I think I've found my first minor security bug, that allows checking the [actual existence of a bank account number by IBAN](https://twitter.com/6uhrmittag/status/1290898819375411200). They still haven't fixed it, so it might be intentional
 
 ## 10.05.20
 !> Don't use exit(0) during development!
