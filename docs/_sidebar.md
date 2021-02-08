@@ -7,7 +7,8 @@
         - [other](blog/dev/other.md)
 - Notes
     - [Notes](notes/)
-    - [random](notes/random_computer.md)
+    - [Book notes](notes/random_computer.md)
+    - [Random](notes/)
 - Tools
     - [Usefull tools](tools/)
     - [Testing tools](tools/testing.md)
