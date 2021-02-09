@@ -62,7 +62,11 @@
                       minute: ""
                     },
                     isExpected: true
-              }
+                },
+                alias: {
+                    '/_glossary': '/booknotes/books',
+                    '/.*/_sidebar.md': '/_sidebar.md'
+                }
             };
         </script>
 
@@ -99,6 +103,9 @@
         <script src="//unpkg.com/prismjs@1/components/prism-python.min.js"></script>
         <!-- docsify plugin: Flexible Alerts -->
         <script src="https://cdn.jsdelivr.net/npm/docsify-plugin-flexible-alerts@latest/dist/docsify-plugin-flexible-alerts.min.js"></script>
+
+        <script src="docsify-glossary.js"></script>
+
 
         <!-- Archive -->
         <!-- docsify-sidebarFooter
