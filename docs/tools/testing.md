@@ -35,7 +35,12 @@ https://linux.die.net/man/1/httping
 httping $URL -b -l -s -W -i 1  | ts
 ````
 
+### cli - CI/testing
+
+- https://k6.io/unit-testing-for-performance - Like Unit Testing, for Performance
+
 ## online tools
+
 ### websites/http - all-in-one/general
 
 - https://observatory.mozilla.org - all-in-one
@@ -59,6 +64,7 @@ httping $URL -b -l -s -W -i 1  | ts
 ### websites/http - https/tls
 
 - https://www.ssllabs.com/ssltest/ - check TLS
+- https://crt.sh/ - detailt info about Certificates on websites
 - https://hstspreload.org - check status and add sites to Chromes HSTS preload list
 - https://www.jitbit.com/sslcheck - search for non-secure images, scripts and css-files that will trigger a warning message in browsers
 - https://tls.imirhil.fr/ - view important details fast
