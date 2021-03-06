@@ -26,6 +26,7 @@
 
 #### scripting
 - https://kvz.io/bash-best-practices.html
+- Line Interface Guidelines: https://clig.dev/
 - https://developer.apple.com/library/archive/documentation/OpenSource/Conceptual/ShellScripting/Introduction/Introduction.html#//apple_ref/doc/uid/TP40004268-TP40003516-SW1
 
 # cheatsheets
