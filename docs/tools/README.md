@@ -157,3 +157,8 @@
     - https://httptoolkit.tech/
 - brök - CLI tool to find broken links
     - https://github.com/smallhadroncollider/brok
+- dynamic wallpapers
+  - https://github.com/rocksdanister/lively
+  - https://github.com/t1m0thyj/WinDynamicDesktop
+- https://github.com/Awesome-Windows/Awesome
+- https://github.com/sirredbeard/Awesome-WSL
