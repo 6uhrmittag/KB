@@ -36,6 +36,7 @@
     - free plan includes 4 diagrams
 - https://www.diagram.codes/ **untested yet**
 - https://diagrams.mingrammer.com/ Duagran as Code(Python) **untested yet**
+- https://github.com/gaphor/gaphor easy to use UML **untested yet**
 
 #### infrastructure diagrams
 - https://arcentry.com/ - Create Interactive Cloud Diagrams **untested yet**
@@ -76,6 +77,7 @@
 - Railroad-diagram Generator: https://github.com/tabatkins/railroad-diagrams  **untested yet**
 - ilograph - interactive diagrams of code: https://www.ilograph.com/  **untested yet**
 - https://excalidraw.com/  **untested yet**
+
 
 #### infographics
 - https://infogram.com/ **untested yet**

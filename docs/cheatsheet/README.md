@@ -166,3 +166,8 @@ service software_collection-service_name start
 chkconfig software_collection-service_name on
 ````
 
+# Windows
+
+## List of Commands
+
+- https://ss64.com/nt/
