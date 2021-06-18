@@ -164,3 +164,8 @@
   - https://github.com/t1m0thyj/WinDynamicDesktop
 - https://github.com/Awesome-Windows/Awesome
 - https://github.com/sirredbeard/Awesome-WSL
+### macro tools
+- https://www.macrocreator.com/
+- http://hidmacros.eu/scripting.php#wsh
+- https://www.perfectautomation.com/
+- https://thetinytask.com/
