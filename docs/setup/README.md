@@ -52,3 +52,31 @@ see https://patchmypc.com/home-updater-download
 - https://github.com/jacktrocinski/pretty-putty
     - **Note:** Will change mouse-shortcut `right-click to paste/insert` to wheel-click! change after import back to right-click(Win default)
 
+# via scoop (optional)
+
+- https://github.com/lukesampson/scoop
+- https://rasa.github.io/scoop-directory/by-stars
+
+All Commands in Powershell
+
+````powershell
+iwr -useb get.scoop.sh | iex
+scoop bucket add extras # add more Tools
+scoop bucket add nirsoft # add nirsoft systemtools
+scoop bucket add Sysinternals 'https://github.com/Ash258/Scoop-Sysinternals.git' # add sysinternal tools
+scoop bucket add Ash258 'https://github.com/Ash258/Scoop-Ash258.git' # add more 3rd party tools
+scoop install sudo # to use --global
+scoop install aria2 # better download performance
+````
+
+## Usage
+
+````powershell
+scoop list
+scoop install <app>
+sudo scoop install --global <app>
+scoop update
+scoop update <app>
+scoop uninstall <app>
+````
+
