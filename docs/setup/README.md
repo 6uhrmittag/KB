@@ -1,19 +1,18 @@
 # Tools to install
 
-
 # via patchmypc
 
 see https://patchmypc.com/home-updater-download
 
 - Foxit Reader
 - ImageGlass
-- Notepad++ 
+- Notepad++
 - Dropbox
 - Git version
 - GitHub Desktop
 - Google Chrome
-- Microsoft Visual C++ 2010  x64 Redistributable
-- Microsoft Visual C++ 2010  x86 Redistributable
+- Microsoft Visual C++ 2010 x64 Redistributable
+- Microsoft Visual C++ 2010 x86 Redistributable
 - Microsoft Visual C++ 2012 Redistributable (x64)
 - Microsoft Visual C++ 2012 Redistributable (x86)
 - Mozilla Firefox
@@ -21,9 +20,10 @@ see https://patchmypc.com/home-updater-download
 - TreeSize Free
 - VLC media player
 - WinRAR
-- Wireshark 
+- Wireshark
 
 # manual setup
+
 - Vagrant
 - Virtualbox (Check Version - must work with Vagrant)
 - [KiTTY](http://kitty.9bis.net/)
@@ -39,7 +39,7 @@ see https://patchmypc.com/home-updater-download
 # Via WindowsStore
 
 - Windows Terminal: https://aka.ms/terminal
-  - https://github.com/microsoft/terminal
+    - https://github.com/microsoft/terminal
 
 # manual setup optional
 
@@ -49,6 +49,7 @@ see https://patchmypc.com/home-updater-download
 # manual config
 
 ## Putty
+
 - https://github.com/jacktrocinski/pretty-putty
     - **Note:** Will change mouse-shortcut `right-click to paste/insert` to wheel-click! change after import back to right-click(Win default)
 

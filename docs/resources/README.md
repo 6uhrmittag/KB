@@ -1,6 +1,7 @@
 # resources
 
 ## linux
+
 - http://linux-training.be/index.php?nav=home
     - http://linux-training.be/linuxfun.pdf - Linux Fundamentals.pdf teaches you the very fundamentals of Linux (or Unix!).
     - http://linux-training.be/linuxsys.pdf - System Administration.pdf teaches you Linux system administration (not Unix).
@@ -8,6 +9,7 @@
 - https://nostarch.com/howlinuxworks2
 
 ## linux guides
+
 - https://linuxjourney.com/
 - https://tutorials.ubuntu.com/
     - interesting website/tutorial system
@@ -15,16 +17,20 @@
 - http://www.tldp.org/guides.html
 
 ## docker
+
 - Dockerfile In-Depth Guide Dockerfile In-Depth Guide - https://knowledgepill.it/posts/docker-build-from-dockerfile/
 
 ## shell/scripting
+
 #### shell
+
 - https://wiki.bash-hackers.org/scripting/newbie_traps
 - https://www.mylinuxplace.com/bash-special-variables/
 - https://www.gnu.org/software/bash/manual/html_node/Special-Parameters.html
 - https://bash.cyberciti.biz/guide/$IFS
 
 #### scripting
+
 - https://kvz.io/bash-best-practices.html
 - Line Interface Guidelines: https://clig.dev/
 - https://developer.apple.com/library/archive/documentation/OpenSource/Conceptual/ShellScripting/Introduction/Introduction.html#//apple_ref/doc/uid/TP40004268-TP40003516-SW1
@@ -36,32 +42,41 @@
 - https://github.com/KnowNo/the-book-of-secret-knowledge
 
 ## linux tools
+
 - https://github.com/luong-komorebi/Awesome-Linux-Software
 - https://wiki.archlinux.org/index.php/list_of_applications
 
 # databases
+
 ## sql
+
 - https://sqlbolt.com - interactive! SQL tutorial
 
 # testing
+
 ## server testing
+
 - https://www.reddit.com/r/sysadmin/comments/4v2k7n/infrastructure_tests_and_beyond/
 
 # graphics
+
 - https://undraw.co/illustrations
 - https://gallery.manypixels.co/
 
 # about documentation
+
 - https://www.ybrikman.com/writing/2014/05/05/you-are-what-you-document/
 - https://www.developer.com/tech/article.php/3848981/The-7-Rules-for-Writing-World-Class-Technical-Documentation.htm
 - https://stoplight.io/blog/writing-documentation-when-you-arent-a-technical-writer-part-one-ef08a09870d1/
 - https://stoplight.io/blog/writing-documentation-when-you-arent-a-technical-writer-part-two-59997587cc2a/
 
 # in-depth info
+
 - https://wiki.linuxfoundation.org/networking/start
 - https://wiki.linuxfoundation.org/networking/kernel_flow
 
 # ctf plattforms
+
 - https://github.com/We5ter/Awesome-Platforms/blob/master/CTF-Platforms.md
 - https://github.com/apsdehal/awesome-ctf
 - https://github.com/topics/ctf-platform

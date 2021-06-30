@@ -1,11 +1,13 @@
 # Usefull commands
 
 # Test Mail
+
 ## An E-Mail Adresse
 
 ````bash
 echo "Subject: Mailfunktion TEST" | sendmail mail@mail.de
 ````
+
 ## An Useraccount
 
 !> Mails an root sollten immer irgendwo ankommen
@@ -15,36 +17,46 @@ echo "Subject: Mailfunktion TEST" | sendmail root
 ````
 
 # Shell
+
 ## Autoformat as table
+
 ````bash
 echo "one two"| column -t -s' '
 ````
 
 # Mysql
+
 ## Show DBs
+
 ````mysql
 SHOW DATABASES;
 ````
+
 ## Show Rights
+
 ```mysql
 SHOW GRANTS FOR 'root'@'localhost';
 ```
 
 ## Show Loaded .conf
+
 ````mysql
 SHOW VARIABLES LIKE '%max_connect_errors%';
 ````
+
 ## create dump
+
 ````bash
 mysqldump -u USERNAME -p --databases DATENBANK > DATEINAME.sql
 ````
 
 ## dump import
+
 ````bash
 mysql -u USERNAME -p --databases DATENBANK < DATEINAME.sql
 ````
 
-# Postgress  
+# Postgress
 
 ## Without Useraccount
 
@@ -65,7 +77,7 @@ psql
 psql -d DATENBANKNAME
 ````
 
-## Information about Connection 
+## Information about Connection
 
  ````postgresql
 \conninfo
@@ -90,18 +102,23 @@ psql -d DATENBANKNAME
 ````
 
 # SVN
+
 ````bash
 svn add FILE
 ````
+
 ````bash
 svn svn delete FILE
 ````
+
 ````bash
 svn commit FILE -m "MESSAGE"
 ````
 
 # virsh
+
 ## DHCP IPs
+
 ````bash
 sudo virsh net-dhcp-leases default
 ````
@@ -114,10 +131,10 @@ sudo virsh net-dhcp-leases default
 loadkeys de
 ````
 
-
-
 # RedHat
-## Software collection (RHSCL) 
+
+## Software collection (RHSCL)
+
 ?> RHSCL allows usage of latest versions and parallel installation of tools.
 
 ?> Tools from RHSCL have the prefix **rh-**
@@ -140,28 +157,35 @@ loadkeys de
 | Red Hat Enterprise Linux| up to 10 years           |
 | RHSCL         | 2-3 years           |
 
-
-
 ### Available Software
+
 See: https://access.redhat.com/support/policy/updates/rhscl
 
 ### Usage
+
 See: https://access.redhat.com/documentation/en-us/red_hat_software_collections/3/html/3.2_release_notes/chap-usage
 
 #### Put in PATH
+
 ````bash
 scl enable software_collection... bash
 ````
-####  put RHSCL in PATH permanently
+
+#### put RHSCL in PATH permanently
+
 ````bash
 vim ~/.bashrc
 source scl_source enable rh-php72
 ````
+
 #### Start Service
+
 ````bash
 service software_collection-service_name start
 ````
+
 #### Enable Autostart
+
 ````bash
 chkconfig software_collection-service_name on
 ````

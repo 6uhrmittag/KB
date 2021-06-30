@@ -1,6 +1,7 @@
 # tools for testing
 
 ## cli tools
+
 ### websites/http - performance
 
 - https://github.com/hakluke/hakrawler - web crawler - `hakrawler -url google.de -plain | hakcheckurl`
@@ -29,6 +30,7 @@ speed_download
 ````
 
 ### httping
+
 https://linux.die.net/man/1/httping
 
 ````cli
@@ -48,12 +50,14 @@ httping $URL -b -l -s -W -i 1  | ts
 - https://check-your-website.server-daten.de
 
 ### websites/http - linting
-- https://webhint.io - webhint is a customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more 
+
+- https://webhint.io - webhint is a customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more
 
 ### websites/http - security
 
 - https://www.hardenize.com - security configuration monitoring
-- https://webcookies.org - all-in-one security check.  HTTP cookies, Flash, HTML5 localStorage, sessionStorage, CANVAS, Supercookies, Evercookies. Includes a free SSL/TLS, HTML and HTTP vulnerability scanner and URL malware scanner.
+- https://webcookies.org - all-in-one security check. HTTP cookies, Flash, HTML5 localStorage, sessionStorage, CANVAS, Supercookies, Evercookies. Includes a free SSL/TLS, HTML and HTTP vulnerability
+  scanner and URL malware scanner.
 - https://pentest-tools.com/website-vulnerability-scanning/website-scanner - Discover common web application vulnerabilities and server configuration issues
 - https://app.upguard.com/webscan - security assessment
 - https://sitecheck.sucuri.net - security check & malware scanner
