@@ -185,6 +185,10 @@
 - https://github.com/Awesome-Windows/Awesome
 - https://github.com/sirredbeard/Awesome-WSL
 
+### knowledge management
+
+- https://www.deepdyve.com
+
 ### macro tools
 
 - https://www.macrocreator.com/
