@@ -39,7 +39,7 @@ see https://patchmypc.com/home-updater-download
 # Via WindowsStore
 
 - Windows Terminal: https://aka.ms/terminal
-    - https://github.com/microsoft/terminal
+    - https://www.microsoft.com/en-us/p/windows-terminal-preview/9n8g5rfz9xk3?activetab=pivot:overviewtab
 
 # manual setup optional
 
@@ -81,3 +81,13 @@ scoop update <app>
 scoop uninstall <app>
 ````
 
+# Jetbrains IDE
+
+- https://developpaper.com/using-typora-to-edit-markdown-file-in-pycharm/
+
+# Optional/Not 100% reviewed yet
+
+- https://www.microsoft.com/en-us/p/openinwsl/9ngmqpwcg7sf?cid=msft_web_chart&activetab=pivot:overviewtab
+- https://www.microsoft.com/en-us/p/windows-performance-analyzer/9n0w1b2bxgnz?cid=msft_web_chart&activetab=pivot:overviewtab
+- https://www.microsoft.com/en-us/p/gwsl/9nl6kd1h33v3?activetab=pivot:overviewtab
+  - https://opticos.github.io/gwsl/
