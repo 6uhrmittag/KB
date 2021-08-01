@@ -1,5 +1,13 @@
 # tools
 
+## Templating/Boilerplates
+
+- go-replace - best tool to replace variables in files with environment files (like envsubt, but with go-template)
+  - https://github.com/webdevops/go-replace
+- boilr - generate files and directories based on templating tool
+  - can generate single files(unlike cookiecutter) 
+  - https://github.com/rgeyer/boilr (original repo is unmaintained)
+
 ## website frameworks/generators
 
 ### wikis
@@ -184,6 +192,9 @@
     - https://github.com/t1m0thyj/WinDynamicDesktop
 - https://github.com/Awesome-Windows/Awesome
 - https://github.com/sirredbeard/Awesome-WSL
+- https://github.com/gjthompson1/glue-public
+- https://usedevbook.com/
+- https://github.com/tkainrad/keycombiner
 
 ### knowledge management
 
@@ -195,3 +206,24 @@
 - http://hidmacros.eu/scripting.php#wsh
 - https://www.perfectautomation.com/
 - https://thetinytask.com/
+
+
+### other
+### machinery-project
+
+inventory tool can clone suse systems, also works on ubuntu
+http://machinery-project.org
+
+````bash
+sudo apt-get install ruby ruby-dev gcc make zlib1g-dev xdg-utils golang
+sudo gem install rake
+sudo gem install machinery-tool
+````
+
+#### usage
+
+````bash
+sudo machinery inspect localhost --ignore-scope changed-config-files,changed-managed-files,unmanaged-files
+sudo machinery show localhost
+sudo machinery export-html --html-dir test localhost
+````

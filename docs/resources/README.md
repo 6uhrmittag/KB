@@ -28,9 +28,12 @@
 - https://www.mylinuxplace.com/bash-special-variables/
 - https://www.gnu.org/software/bash/manual/html_node/Special-Parameters.html
 - https://bash.cyberciti.biz/guide/$IFS
+- http://tiswww.case.edu/php/chet/bash/FAQ
+- https://garden.io/
 
 #### scripting
 
+- https://google.github.io/styleguide/shellguide.html
 - https://kvz.io/bash-best-practices.html
 - Line Interface Guidelines: https://clig.dev/
 - https://developer.apple.com/library/archive/documentation/OpenSource/Conceptual/ShellScripting/Introduction/Introduction.html#//apple_ref/doc/uid/TP40004268-TP40003516-SW1
