@@ -24,8 +24,7 @@ Bootstrapping via Script
 
 ````shell
 cd /tmp \
-    && wget https://raw.githubusercontent.com/6uhrmittag/KB/master/docs/setup/windows/linuxSubsystem/mains.sh \
     && wget https://raw.githubusercontent.com/6uhrmittag/KB/master/docs/setup/windows/linuxSubsystem/bootstrap.sh \
-    && chmod +x main.sh bootstrap.sh \
-    && ./main.sh  -f bootstrap.sh -f bootstrap.sh
+    && chmod +x bootstrap.sh \
+    && ./bootstrap.sh
 ````
