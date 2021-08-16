@@ -126,6 +126,10 @@
 
 ## system tools
 
+### security
+
+- https://projectdiscovery.io/#/
+
 ### debug
 
 - DNS diagnostigs&monitoring tool: https://dnsdiag.org **untested yet**
@@ -176,26 +180,6 @@
     - no free version
     - only 10€
 
-## tools to check out
-
-- https://github.com/agarrharr/awesome-cli-apps
-- log viewer:
-    - https://github.com/tmoreno/open-log-viewer
-- interactive charts diagrams
-    - https://activechart.futureglobe.de/
-- Intercept & view all your HTTP(S) Mock endpoints or entire servers Rewrite, redirect, or inject errors
-    - https://httptoolkit.tech/
-- brök - CLI tool to find broken links
-    - https://github.com/smallhadroncollider/brok
-- dynamic wallpapers
-    - https://github.com/rocksdanister/lively
-    - https://github.com/t1m0thyj/WinDynamicDesktop
-- https://github.com/Awesome-Windows/Awesome
-- https://github.com/sirredbeard/Awesome-WSL
-- https://github.com/gjthompson1/glue-public
-- https://usedevbook.com/
-- https://github.com/tkainrad/keycombiner
-
 ### knowledge management
 
 - https://www.deepdyve.com
@@ -227,3 +211,24 @@ sudo machinery inspect localhost --ignore-scope changed-config-files,changed-man
 sudo machinery show localhost
 sudo machinery export-html --html-dir test localhost
 ````
+
+## tools to check out
+
+- https://github.com/agarrharr/awesome-cli-apps
+- log viewer:
+    - https://github.com/tmoreno/open-log-viewer
+- interactive charts diagrams
+    - https://activechart.futureglobe.de/
+- Intercept & view all your HTTP(S) Mock endpoints or entire servers Rewrite, redirect, or inject errors
+    - https://httptoolkit.tech/
+- brök - CLI tool to find broken links
+    - https://github.com/smallhadroncollider/brok
+- dynamic wallpapers
+    - https://github.com/rocksdanister/lively
+    - https://github.com/t1m0thyj/WinDynamicDesktop
+- https://github.com/Awesome-Windows/Awesome
+- https://github.com/sirredbeard/Awesome-WSL
+- https://github.com/gjthompson1/glue-public
+- https://usedevbook.com/
+- https://github.com/tkainrad/keycombiner
+- https://github.com/ajeetdsouza/zoxide
