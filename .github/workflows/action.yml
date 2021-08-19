@@ -36,3 +36,11 @@ jobs:
           args: --verbose docs/**/*.md --max-concurrency 10 --insecure
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        continue-on-error: true
+
+      - name: Create Issue From File
+        uses: peter-evans/create-issue-from-file@v3
+        with:
+          title: Link Checker Report
+          content-filepath: ./lychee/out.md
+          labels: report, automated issue
