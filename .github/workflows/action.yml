@@ -1,0 +1,35 @@
+name: markdown-link-check
+#on:
+#  release:
+#    types: [created, edited]
+
+on:
+  push:
+    branches:
+    - master
+  schedule:
+  # Run everyday at 9:00 AM (See https://pubs.opengroup.org/onlinepubs/9699919799/utilities/crontab.html#tag_20_25_07)
+  - cron: "0 0 * * FRI"
+
+jobs:
+  #  generate-changelog:
+  #    runs-on: ubuntu-latest
+  #    steps:
+  #    - uses: actions/checkout@v2
+  #      with:
+  #        fetch-depth: 0
+  #    - uses: BobAnkh/auto-generate-changelog@v1.0.2
+  #      with:
+  #        REPO_NAME: '6uhrmittag/KB'
+  #        ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
+  #        PATH: '/CHANGELOG.md'
+  #        COMMIT_MESSAGE: 'docs(CHANGELOG): update release notes'
+  #        TYPE: 'add:Feature,update:Feature,fix:Fixes,docs:Documentation,cleanup:Cleanup,stylefix:Cleanup'
+  markdown-link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          config-file: '.markdown-link-check.json'
+          folder-path: 'docs/markdown_files'
