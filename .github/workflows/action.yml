@@ -6,10 +6,10 @@ name: markdown-link-check
 on:
   push:
     branches:
-    - master
+      - master
   schedule:
-  # Run everyday at 9:00 AM (See https://pubs.opengroup.org/onlinepubs/9699919799/utilities/crontab.html#tag_20_25_07)
-  - cron: "0 0 * * FRI"
+    # Run everyday at 9:00 AM (See https://pubs.opengroup.org/onlinepubs/9699919799/utilities/crontab.html#tag_20_25_07)
+    - cron: "0 0 * * FRI"
 
 jobs:
   #  generate-changelog:
@@ -25,11 +25,14 @@ jobs:
   #        PATH: '/CHANGELOG.md'
   #        COMMIT_MESSAGE: 'docs(CHANGELOG): update release notes'
   #        TYPE: 'add:Feature,update:Feature,fix:Fixes,docs:Documentation,cleanup:Cleanup,stylefix:Cleanup'
-  markdown-link-check:
+  linkChecker:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
-      - uses: gaurav-nelson/github-action-markdown-link-check@v1
+      - uses: actions/checkout@v2
+
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v1.0.8
         with:
-          config-file: '.markdown-link-check.json'
-          folder-path: 'docs'
+          args: --verbose docs/*.md --max-concurrency 10 --insecure
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
