@@ -32,4 +32,4 @@ jobs:
       - uses: gaurav-nelson/github-action-markdown-link-check@v1
         with:
           config-file: '.markdown-link-check.json'
-          folder-path: 'docs/markdown_files'
+          folder-path: 'docs'
