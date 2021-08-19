@@ -33,6 +33,6 @@ jobs:
       - name: Link Checker
         uses: lycheeverse/lychee-action@v1.0.8
         with:
-          args: --verbose docs/*.md --max-concurrency 10 --insecure
+          args: --verbose docs/**/*.md --max-concurrency 10 --insecure
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
