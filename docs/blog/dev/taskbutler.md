@@ -62,7 +62,7 @@ https://www.dropbox.com/ow/msft/edit/home/<$FOLDER>/<$FILENAME>
 
 Once one is logged into Dropbox and clicks on a link like the above, the corresponding file will open the web version of Microsoft Office.
 
-Since Todoist [allows URLs in tasks to be clickable](https://get.todoist.help/hc/en-us/articles/205195102-Text-Formatting-), the integration is almost seamless. To make use of this feature, Taskbutler will also upload a specified file to Dropbox when the feature label is found.
+Since Todoist [allows URLs in tasks to be clickable](https://todoist.com/de/help/articles/text-formatting), the integration is almost seamless. To make use of this feature, Taskbutler will also upload a specified file to Dropbox when the feature label is found.
 
 My main goal is to make it super easy to write a simple letter in case of e.g. cancelling a contract or similar things that require a default template. It saves a ton of time to select and edit a template once and using it with this feature.
 
