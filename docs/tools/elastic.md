@@ -8,7 +8,7 @@
 
 - https://www.guru99.com/elk-stack-tutorial.html -> overview
 - https://medium.com/@abhidrona/elasticsearch-deployment-best-practices-d6c1323b25d7
-- https://www.elastic.co/assets/blt2614227bb99b9878/architecture-best-practices.pdf
+- ~~https://www.elastic.co/assets/blt2614227bb99b9878/architecture-best-practices.pdf~~ [offline]
 - https://medium.com/@brunoamaroalmeida/enabling-centralized-application-logging-using-the-elastic-elk-stack-from-stratch-a-15-minutes-eba501230b3d
     - https://github.com/brunoamaroalmeida/awesome-quickstart-containers/tree/master/elastic-stack
 

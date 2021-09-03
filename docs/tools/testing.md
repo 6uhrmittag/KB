@@ -56,8 +56,8 @@ httping $URL -b -l -s -W -i 1  | ts
 ### websites/http - security
 
 - https://www.hardenize.com - security configuration monitoring
-- https://webcookies.org - all-in-one security check. HTTP cookies, Flash, HTML5 localStorage, sessionStorage, CANVAS, Supercookies, Evercookies. Includes a free SSL/TLS, HTML and HTTP vulnerability
-  scanner and URL malware scanner.
+- ~~https://webcookies.org - all-in-one security check. HTTP cookies, Flash, HTML5 localStorage, sessionStorage, CANVAS, Supercookies, Evercookies. Includes a free SSL/TLS, HTML and HTTP vulnerability
+  scanner and URL malware scanner.~~ [offline]
 - https://pentest-tools.com/website-vulnerability-scanning/website-scanner - Discover common web application vulnerabilities and server configuration issues
 - https://app.upguard.com/webscan - security assessment
 - https://sitecheck.sucuri.net - security check & malware scanner

@@ -18,7 +18,7 @@
 
 ## docker
 
-- Dockerfile In-Depth Guide Dockerfile In-Depth Guide - https://knowledgepill.it/posts/docker-build-from-dockerfile/
+- ~~Dockerfile In-Depth Guide Dockerfile In-Depth Guide - https://knowledgepill.it/posts/docker-build-from-dockerfile/~~ [offline]
 
 ## shell/scripting
 
@@ -84,4 +84,4 @@
 - https://github.com/apsdehal/awesome-ctf
 - https://github.com/topics/ctf-platform
 - https://www.findbestopensource.com/tagged/ctf
-- http://list.rawsec.ml/ctf_platforms.html
+- ~~http://list.rawsec.ml/ctf_platforms.html~~ [offline]

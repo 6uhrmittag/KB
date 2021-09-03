@@ -42,7 +42,7 @@
 
 - https://sketchboard.me :+1:
     - free plan includes private diagrams
-- https://mermaidjs.github.io/gantt.html **untested yet**
+- https://mermaid-js.github.io/mermaid/#/gantt **untested yet**
 - https://www.archimatetool.com/ **untested yet**
 - https://vecta.io/app/edit/demo **untested yet**
 - https://whimsical.com/ :+1:

@@ -1,0 +1,10 @@
+# Exclude URLs from checking (supports regex)
+exclude = [
+    "webcookies.org",
+    "\\$url",
+    "https://knowledgepill.it/posts/docker-build-from-dockerfile/",
+    "http://list.rawsec.ml/ctf_platforms.html",
+    "https://admindojo.org/",
+    "https://www.elastic.co/assets/blt2614227bb99b9878/architecture-best-practices.pdf",
+    "mail@mail.de",
+]
