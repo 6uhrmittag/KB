@@ -159,7 +159,7 @@
 
 ## media
 
-## Media Libraries
+### Media Libraries
 
 - https://en.eagle.cool :+1:
     - win&mac
@@ -180,11 +180,11 @@
     - no free version
     - only 10€
 
-### knowledge management
+## knowledge management
 
 - https://www.deepdyve.com
 
-### macro tools
+## macro tools
 
 - https://www.macrocreator.com/
 - http://hidmacros.eu/scripting.php#wsh
@@ -192,8 +192,8 @@
 - https://thetinytask.com/
 
 
-### other
-### machinery-project
+## other
+## machinery-project
 
 inventory tool can clone suse systems, also works on ubuntu
 http://machinery-project.org
@@ -204,7 +204,7 @@ sudo gem install rake
 sudo gem install machinery-tool
 ````
 
-#### usage
+### usage
 
 ````bash
 sudo machinery inspect localhost --ignore-scope changed-config-files,changed-managed-files,unmanaged-files
