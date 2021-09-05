@@ -17,6 +17,7 @@
     - [InSpec](tools/inspec.md)
     - [Puppet](tools/puppet.md)
     - [ELK-Stack](tools/elk_logstash.md)
+    - [Muse Score](tools/MuseScore.md)
 - [Programming](programming/)
 - [Resources](resources/)
 - [Cheatsheet](cheatsheet/)
