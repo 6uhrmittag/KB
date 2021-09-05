@@ -51,6 +51,7 @@ section "go Packages"
   satisfy go-package "github.com/hakluke/hakcheckurl"
   satisfy go-package "github.com/projectdiscovery/httpx/cmd/httpx"
   satisfy go-package "github.com/projectdiscovery/nuclei/v2/cmd/nuclei"
+  satisfy go-package "github.com/webdevops/go-replace"
 
 end-section
 
