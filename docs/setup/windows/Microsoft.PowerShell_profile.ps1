@@ -33,6 +33,10 @@ function set-title([string]$newtitle) {
 	$host.ui.RawUI.WindowTitle = $newtitle + ' – ' + $host.ui.RawUI.WindowTitle
 }
 
+# Scoop autocompletion
+# https://github.com/Moeologist/scoop-completion
+Import-Module "$($(Get-Item $(Get-Command scoop).Path).Directory.Parent.FullName)\modules\scoop-completion"
+
 
 # Usefull Commans
 # Get-Module -ListAvailable

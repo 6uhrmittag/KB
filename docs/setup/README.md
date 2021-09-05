@@ -70,6 +70,10 @@ scoop install 7zip
 scoop install innounp 
 scoop install dark
 scoop checkup
+
+scoop bucket add scoop-completion https://github.com/Moeologist/scoop-completion
+
+
 ````
 
 ````powershell
@@ -81,6 +85,17 @@ scoop install ProcessExplorer
 scoop install ProcessMonitor
 scoop install screentogif
 scoop install less
+````
+
+#### optional
+
+````powershell
+scoop install typora
+scoop install JetBrains-Toolbox
+scoop install mysql-workbench
+scoop install heidisql
+scoop install hosts-file-editor
+scoop install screentogif
 ````
 
 #### Usage
