@@ -14,7 +14,7 @@ Download: https://musescore.org/de
 
 ### Name of the note in notehead
 
-https://musescore.org/en/handbook/3/notehead-schemes
+- https://musescore.org/en/handbook/3/notehead-schemes
 
 ### Name of the note above the note
 
@@ -23,3 +23,7 @@ https://musescore.org/en/handbook/3/notehead-schemes
     - download: https://github.com/Jojo-Schmitz/notenames
     - put directory in: `C:\Program Files\MuseScore 3\plugins\notenamesgithub`
 
+### Colored Notedheads
+
+- Builtin: Plugins / PluginManager> colorenotes
+    - To change Color, edit HEX in `C:\Program Files\MuseScore 3\plugins\colornotes.qml`
