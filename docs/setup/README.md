@@ -35,13 +35,6 @@ see https://patchmypc.com/home-updater-download
 - https://www.samsung.com/semiconductor/minisite/ssd/product/consumer/magician/
 - https://mpv.io/installation/
 
-# manual config
-
-## Putty
-
-- https://github.com/jacktrocinski/pretty-putty
-    - **Note:** Will change mouse-shortcut `right-click to paste/insert` to wheel-click! change after import back to right-click(Win default)
-
 ## via scoop (optional)
 
 - https://github.com/lukesampson/scoop
@@ -94,6 +87,12 @@ scoop update
 scoop update <app>
 scoop uninstall <app>
 ````
+
+## manual config
+### Putty
+
+- https://github.com/jacktrocinski/pretty-putty
+    - **Note:** Will change mouse-shortcut `right-click to paste/insert` to wheel-click! change after import back to right-click(Win default)
 
 ### Jetbrains IDE
 - https://developpaper.com/using-typora-to-edit-markdown-file-in-pycharm/
