@@ -36,16 +36,6 @@ see https://patchmypc.com/home-updater-download
 - Terminal/Powershell AddOn [/setup/windows/terminal/](/setup/windows/terminal/)
 - https://mpv.io/installation/
 
-# Via WindowsStore
-
-- Windows Terminal: https://aka.ms/terminal
-    - https://www.microsoft.com/en-us/p/windows-terminal-preview/9n8g5rfz9xk3?activetab=pivot:overviewtab
-
-# manual setup optional
-
-- ScreenToGif: https://www.screentogif.com/
-- Hosts File Editor: https://hostsfileeditor.com/
-
 # manual config
 
 ## Putty
@@ -58,7 +48,6 @@ see https://patchmypc.com/home-updater-download
 - https://github.com/lukesampson/scoop
 - https://rasa.github.io/scoop-directory/by-stars
 
-All Commands in Powershell
 ### install & setup scoop
 ````powershell
 iwr -useb get.scoop.sh | iex
@@ -72,8 +61,6 @@ scoop install dark
 scoop checkup
 
 scoop bucket add scoop-completion https://github.com/Moeologist/scoop-completion
-
-
 ````
 
 ````powershell
@@ -110,8 +97,35 @@ scoop uninstall <app>
 ````
 
 # Jetbrains IDE
-
 - https://developpaper.com/using-typora-to-edit-markdown-file-in-pycharm/
+
+## Powershell (Experimental)
+### Install Preview 7
+Install Powershell 7 via WinStore
+
+### Create Profile
+````powershell
+if (!(Test-Path -Path $PROFILE ))
+{ New-Item -Type File -Path $PROFILE -Force }
+````
+### 
+
+````powershell
+Set-PSRepository -name PSGallery -InstallationPolicy Trusted
+Install-Module -Name PSReadLine -AllowPrerelease -Force
+````
+### Copy Profile
+````powershell
+notepad.exe $PROFILE
+````
+Copy content from: https://raw.githubusercontent.com/6uhrmittag/KB/master/docs/setup/windows/Microsoft.PowerShell_profile.ps1
+
+## Terminal
+### Install
+Windows Terminal Preview: https://aka.ms/terminal
+
+### Settings
+Move needed parts in settings.json (via Terminal -> Settings): https://raw.githubusercontent.com/6uhrmittag/KB/master/docs/setup/windows/terminal/settings.json
 
 # Optional/Not 100% reviewed yet
 
@@ -120,30 +134,3 @@ scoop uninstall <app>
 - https://www.microsoft.com/en-us/p/gwsl/9nl6kd1h33v3?activetab=pivot:overviewtab
   - https://opticos.github.io/gwsl/
 - https://www.jetbrains.com/lp/mono/#how-to-install
-- 
-## Powershell (Experimental)
-
-https://devblogs.microsoft.com/powershell/announcing-psreadline-2-1-with-predictive-intellisense/?WT.mc_id=modinfra-16469-thmaure
-````powershell
-
-if (!(Test-Path -Path $PROFILE ))
-{ New-Item -Type File -Path $PROFILE -Force }
-
-Set-PSRepository -name PSGallery -InstallationPolicy Trusted
-
-#https://github.com/Pscx/Pscx
-Install-Module Pscx -Scope CurrentUser -AllowClobber
-
-
-
-Install-Module -Name PSReadLine -AllowPrerelease -Force
-````
-
-## Powershell profile
-
-Install Powershell Preview via MS Store
-````powershell
-notepad.exe $PROFILE
-````
-Copy content: [Microsoft.PowerShell_profile.ps1](Microsoft.PowerShell_profile.ps1)
-
