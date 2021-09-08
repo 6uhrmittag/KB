@@ -26,6 +26,9 @@ unattended-upgrades
 make
 pkg-config
 libssl-dev
+net-tools
+moreutils
+build-essential
 EOF
 )
 section "apt Packages"
@@ -88,11 +91,53 @@ section "various Packages"
         sudo dpkg -i /tmp/puppet.deb &&
         sudo apt-get update &&
         sudo apt-get -y install puppet-bolt &&
-        echo 'analytics: false' | sudo tee/etc/puppetlabs/bolt/bolt-defaults.yaml
+        sudo mkdir -p /etc/puppetlabs/bolt &&
+        echo 'analytics: false' | sudo tee /etc/puppetlabs/bolt/bolt-defaults.yaml
     }
   }
   satisfy executable "puppet-bolt"
 end-section
+
+#####
+
+# setup unattendet Upgrades
+# Source https://gist.github.com/waja/d9e176f712ae6a6e4442486df80a13ba
+
+cat > sudo /etc/apt/apt.conf.d/10periodic <<EOF
+APT::Periodic::Update-Package-Lists "1";
+APT::Periodic::Download-Upgradeable-Packages "1";
+APT::Periodic::AutocleanInterval "7";
+APT::Periodic::Unattended-Upgrade "1";
+EOF
+
+sudo sed -i 's#//\t"${distro_id}:${distro_codename}-updates"#\t"${distro_id}:${distro_codename}-updates"#' /etc/apt/apt.conf.d/50unattended-upgrades
+sudo sed -i 's#//Unattended-Upgrade::Remove-Unused-Dependencies "false"#Unattended-Upgrade::Remove-Unused-Dependencies "true"#' /etc/apt/apt.conf.d/50unattended-upgrades
+#####
+
+# WSL
+sudo bash -c 'cat > sudo /etc/wsl.conf' << EOF
+[automount]
+enabled=true
+options="metadata,umask=0033"
+EOF
+
+sudo bash -c 'cat << EOF > /etc/wsl.conf
+[automount]
+enabled=true
+# unterbindet "world readable", führt bei einigen Tools(gem) zu Warnungen
+options="metadata,umask=0033"
+EOF'
+
+cat > /mnt/c/Users/<Username>/.wslconfig <<EOF
+[wsl2]
+memory=4GB # Limits VM memory in WSL 2 to 4 GB
+EOF
+
+# wsl --shutdown
+
+###
+
+
 
 echo "Script done!"
 exit
