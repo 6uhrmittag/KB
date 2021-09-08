@@ -96,7 +96,7 @@ scoop update <app>
 scoop uninstall <app>
 ````
 
-# Jetbrains IDE
+### Jetbrains IDE
 - https://developpaper.com/using-typora-to-edit-markdown-file-in-pycharm/
 
 ## Powershell (Experimental)
@@ -108,7 +108,7 @@ Install Powershell 7 via WinStore
 if (!(Test-Path -Path $PROFILE ))
 { New-Item -Type File -Path $PROFILE -Force }
 ````
-### 
+### Init 
 
 ````powershell
 Set-PSRepository -name PSGallery -InstallationPolicy Trusted
