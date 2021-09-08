@@ -33,7 +33,6 @@ see https://patchmypc.com/home-updater-download
 - https://portal.office.com/account
 - https://sourceforge.net/projects/vcxsrv/
 - https://www.samsung.com/semiconductor/minisite/ssd/product/consumer/magician/
-- Terminal/Powershell AddOn [/setup/windows/terminal/](/setup/windows/terminal/)
 - https://mpv.io/installation/
 
 # manual config
