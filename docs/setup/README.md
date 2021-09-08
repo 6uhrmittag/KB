@@ -99,7 +99,7 @@ scoop uninstall <app>
 ### Jetbrains IDE
 - https://developpaper.com/using-typora-to-edit-markdown-file-in-pycharm/
 
-## Powershell (Experimental)
+## Powershell
 ### Install Preview 7
 Install Powershell 7 via WinStore
 
