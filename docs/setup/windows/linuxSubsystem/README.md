@@ -9,6 +9,7 @@ Install Subsystem (ubuntu) and install+configure as shown below
 
 ```powershell
 wsl --install
+wsl --set-default-version 2
 ```
 
 ### install Distro
@@ -18,10 +19,10 @@ wsl --list --online
 wsl --install -d <Distribution Name>
 ```
 
-## system
+## Setup Ubuntu
+### Install Tools via Script
 
-Bootstrapping via Script
-
+In Ubnutu, bootstrapping via Script:
 ````shell
 cd /tmp \
     && wget https://raw.githubusercontent.com/6uhrmittag/KB/master/docs/setup/windows/linuxSubsystem/bootstrap.sh \
@@ -29,11 +30,11 @@ cd /tmp \
     && ./bootstrap.sh
 ````
 
-## ZSH (experimental)
+### ZSH (experimental)
 
 sudo apt install zsh
 
-## fzf
+#### fzf
 
 ````shell
 #https://github.com/lincheney/fzf-tab-completion
