@@ -29,6 +29,7 @@ libssl-dev
 net-tools
 moreutils
 build-essential
+jq
 EOF
 )
 section "apt Packages"
