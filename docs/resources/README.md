@@ -1,5 +1,10 @@
 # resources
 
+## windows
+
+- list of environment variables on Windows 10
+  - https://pureinfotech.com/list-environment-variables-windows-10/
+
 ## linux
 
 - http://linux-training.be/index.php?nav=home
