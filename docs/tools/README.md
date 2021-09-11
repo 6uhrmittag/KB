@@ -152,7 +152,8 @@
     - legit developer, no scam/risk etc.
 - https://docs.microsoft.com/en-us/sysinternals/
     - in terminal, without download: `live.sysinternals.com/<toolname>`
-
+- random mini tools
+  - https://www.sordum.org/
 ## Windows Misc. Tools (to install for daily use)
 
 - Windows Explorer Media-File preview(by pressing spacebar): https://github.com/QL-Win/QuickLook
