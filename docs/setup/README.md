@@ -125,6 +125,12 @@ Windows Terminal Preview: https://aka.ms/terminal
 ### Settings
 Move needed parts in settings.json (via Terminal -> Settings): https://raw.githubusercontent.com/6uhrmittag/KB/master/docs/setup/windows/terminal/settings.json
 
+## Experimental
+
+### XServer Alternative
+
+- install `GWSL` from MS Store
+
 # Optional/Not 100% reviewed yet
 
 - https://www.microsoft.com/en-us/p/openinwsl/9ngmqpwcg7sf?cid=msft_web_chart&activetab=pivot:overviewtab
