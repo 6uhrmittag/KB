@@ -30,6 +30,7 @@ net-tools
 moreutils
 build-essential
 jq
+ruby
 EOF
 )
 section "apt Packages"
