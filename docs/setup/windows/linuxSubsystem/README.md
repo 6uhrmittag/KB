@@ -44,14 +44,13 @@ ln -s $(which fdfind) ~/.local/bin/fd
 
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
-apt install neovim
-apt install ripgrep bat tree ; sudo apt install -o Dpkg::Options::="--force-overwrite" bat ripgrep
+sudo apt install -y neovim
+sudo apt install -y bat tree ; sudo apt install -y -o Dpkg::Options::="--force-overwrite" bat ripgrep
 mkdir -p ~/.local/bin
 ln -s /usr/bin/batcat ~/.local/bin/bat
 
 
-mkdir -p ~/.local/share/fonts cd ~/.local/share/fonts && curl -fLo "Droid Sans Mono for Powerline Nerd Font
-Complete.otf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20Nerd%20Font%20Complete.otf
+mkdir -p ~/.local/share/fonts cd ~/.local/share/fonts && wget https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/DroidSansMono/complete/Droid%20Sans%20Mono%20Nerd%20Font%20Complete.otf
 ````
 
 `vim ~/.bashrc`

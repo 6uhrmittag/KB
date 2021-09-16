@@ -75,6 +75,7 @@ scoop install mysql-workbench
 scoop install heidisql
 scoop install hosts-file-editor
 scoop install screentogif
+scoop install FullEventLogView
 ````
 
 #### Usage
