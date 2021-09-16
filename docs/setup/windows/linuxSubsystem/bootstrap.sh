@@ -29,8 +29,10 @@ libssl-dev
 net-tools
 moreutils
 build-essential
+cmake
 jq
 ruby
+ruby-dev
 EOF
 )
 section "apt Packages"
