@@ -33,6 +33,7 @@ cmake
 jq
 ruby
 ruby-dev
+python3-pip
 EOF
 )
 section "apt Packages"
