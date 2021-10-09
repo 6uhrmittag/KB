@@ -17,7 +17,6 @@ see https://patchmypc.com/home-updater-download
 - Microsoft Visual C++ 2012 Redistributable (x86)
 - Mozilla Firefox
 - TeraCopy version
-- TreeSize Free
 - VLC media player
 - WinRAR
 - Wireshark
@@ -76,6 +75,8 @@ scoop install heidisql
 scoop install hosts-file-editor
 scoop install screentogif
 scoop install FullEventLogView
+scoop install treesize-free
+scoop install TeraCopy
 ````
 
 #### Usage
