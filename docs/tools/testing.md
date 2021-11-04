@@ -97,3 +97,69 @@ httping $URL -b -l -s -W -i 1  | ts
 ## privacy
 
 - https://gdprchecklist.io - The GDPR Compliance Checklist
+
+## File linting/analyzing
+
+- https://jeremylong.github.io/DependencyCheck/analyzers/
+
+# http2
+
+## apache
+
+https://documentation.help/httpd-2.4/mod_http2.html
+https://httpd.apache.org/docs/current/howto/http2.html
+
+## server checking
+
+- nghttp - useful to visualize the HTTP/2 frames and get a better idea of the protocol.
+    - https://nghttp2.org/documentation/nghttp.1.html
+- h2load - useful to stress-test your server.
+    - https://nghttp2.org/documentation/h2load-howto.html
+- https://blog.cloudflare.com/tools-for-debugging-testing-and-using-http-2/
+### h2load
+
+https://nghttp2.org/documentation/h2load-howto.html
+
+````shell
+sudo apt install nghttp2
+````
+
+````shell
+-n - The number of total requests. Default: 1
+-c - The number of concurrent clients. Default: 1
+-m - The max concurrent streams to issue per client. Default: 1
+````
+````shell
+h2load  https://domain.tld/ -n 90 -c 30 -H 'Authorization: Basic dfgdfg' -m5 --h1
+h2load  https://domain.tld/ -n 90 -c 30 -H 'Authorization: Basic Ydfgdfg'
+````
+
+### nghttp
+````shell
+sudo apt install nghttp2
+````
+
+https://nghttp2.org/documentation/nghttp.1.html
+
+````shell
+--get-assets
+--verbose
+ --null-out
+--header=<HEADER>
+````
+
+````shell
+nghttp -nv https://nghttp2.org
+````
+
+
+## nginx 
+
+- https://github.com/yandex/gixy
+- https://github.com/temoto/nginx-lint
+- https://github.com/irvinlim/SublimeLinter-contrib-nginx-lint
+- https://github.com/jhinch/nginx-linter
+- https://github.com/digitalocean/nginxconfig.io
+
+npm install -g nginx-linter
+pip install gixy

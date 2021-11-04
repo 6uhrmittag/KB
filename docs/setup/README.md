@@ -139,3 +139,40 @@ Move needed parts in settings.json (via Terminal -> Settings): https://raw.githu
 - https://www.microsoft.com/en-us/p/gwsl/9nl6kd1h33v3?activetab=pivot:overviewtab
   - https://opticos.github.io/gwsl/
 - https://www.jetbrains.com/lp/mono/#how-to-install
+
+
+## winget (experimental)
+
+-> doesnt really work. will run winget as admin.. installs user programms to admin  
+Skip UAC:
+https://github.com/microsoft/winget-cli/issues/271#issuecomment-943002770
+````powershell
+winget install gerardog.gsudo
+````
+gsudo cache on
+gsudo cache off
+gsudo -k
+
+````powershell
+winget install -e Microsoft.WindowsTerminal.Preview
+winget install -e Typora.Typora
+# aktuell via scoop
+winget install -e --id HeidiSQL.HeidiSQL
+winget install -e --id BraveSoftware.BraveBrowser
+winget install -e --id NickeManarin.ScreenToGif
+winget install -e --id Wox.Wox
+winget install -e --id voidtools.Everything
+winget install -e --id TorProject.TorBrowser
+winget install -e --id CodeSector.TeraCopy
+winget install -e --id DuongDieuPhap.ImageGlass
+winget install -e --id scottlerch.hosts-file-editor
+winget install -e --id Mirantis.Lens
+winget install -e --id Beeftext.Beeftext
+winget install -e --id JohnMacFarlane.Pandoc
+winget install -e --id=Microsoft.Teams.Preview
+````
+
+
+````powershell
+winget uninstall -e Microsoft.WindowsTerminal
+````

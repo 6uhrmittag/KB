@@ -34,6 +34,7 @@ jq
 ruby
 ruby-dev
 python3-pip
+nghttp2
 EOF
 )
 section "apt Packages"
@@ -115,8 +116,12 @@ APT::Periodic::AutocleanInterval "7";
 APT::Periodic::Unattended-Upgrade "1";
 EOF
 
-sudo sed -i 's#//\t"${distro_id}:${distro_codename}-updates"#\t"${distro_id}:${distro_codename}-updates"#' /etc/apt/apt.conf.d/50unattended-upgrades
-sudo sed -i 's#//Unattended-Upgrade::Remove-Unused-Dependencies "false"#Unattended-Upgrade::Remove-Unused-Dependencies "true"#' /etc/apt/apt.conf.d/50unattended-upgrades
+cat > sudo /etc/apt/apt.conf.d/99unattended-upgrades <<EOF
+Unattended-Upgrade::Origins-Pattern {
+        "site=*";
+};
+EOF
+
 #####
 
 # WSL
@@ -142,7 +147,11 @@ EOF
 
 ###
 
+function nodejs () {
+  curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
+  sudo apt-get install -y nodejs
+}
+satisfy executable "nodejs"
+end-section
 
-
-echo "Script done!"
 exit

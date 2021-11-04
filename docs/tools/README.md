@@ -193,6 +193,10 @@
 - https://thetinytask.com/
 
 
+## Log viewer
+
+https://github.com/tmoreno/open-log-viewer
+
 ## other
 ## machinery-project
 
@@ -216,8 +220,6 @@ sudo machinery export-html --html-dir test localhost
 ## tools to check out
 
 - https://github.com/agarrharr/awesome-cli-apps
-- log viewer:
-    - https://github.com/tmoreno/open-log-viewer
 - interactive charts diagrams
     - https://activechart.futureglobe.de/
 - Intercept & view all your HTTP(S) Mock endpoints or entire servers Rewrite, redirect, or inject errors

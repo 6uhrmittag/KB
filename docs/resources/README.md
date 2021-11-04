@@ -90,3 +90,10 @@
 - https://github.com/topics/ctf-platform
 - https://www.findbestopensource.com/tagged/ctf
 - ~~http://list.rawsec.ml/ctf_platforms.html~~ [offline]
+
+# Windows 
+## Powershell
+## GPO
+https://powershellmagazine.com/2012/05/14/managing-group-policy-with-powershell/
+https://github.com/EvotecIT/GPOZaurr
+https://evotec.xyz/the-only-command-you-will-ever-need-to-understand-and-fix-your-group-policies-gpo/
