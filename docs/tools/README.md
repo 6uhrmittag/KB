@@ -123,6 +123,8 @@
     - https://www.digitalocean.com/community/tools/nginx#?
 - Nginx config testing
     - https://github.com/yandex/gixy
+- Nginx live config playground
+  - https://nginx-playground.wizardzines.com/
 
 ## system tools
 
