@@ -13,6 +13,7 @@
 - Tools
     - [Usefull tools](tools/)
     - [Testing tools](tools/testing.md)
+    - [Azure/AzureAD](tools/azure.md)
     - [Vagrant](tools/vagrant.md)
     - [InSpec](tools/inspec.md)
     - [Puppet](tools/puppet.md)
