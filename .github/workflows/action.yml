@@ -7,9 +7,9 @@ on:
   push:
     branches:
       - master
-  schedule:
-    # Run everyday at 9:00 AM (See https://pubs.opengroup.org/onlinepubs/9699919799/utilities/crontab.html#tag_20_25_07)
-    - cron: "0 0 * * FRI"
+  # schedule:
+  #   # Run everyday at 9:00 AM (See https://pubs.opengroup.org/onlinepubs/9699919799/utilities/crontab.html#tag_20_25_07)
+  #   - cron: "0 0 * * FRI"
 
 jobs:
   #  generate-changelog:
@@ -38,9 +38,9 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         continue-on-error: true
 
-      - name: Create Issue From File
-        uses: peter-evans/create-issue-from-file@v3
-        with:
-          title: Link Checker Report
-          content-filepath: ./lychee/out.md
-          labels: report, automated issue
+      #- name: Create Issue From File
+      #  uses: peter-evans/create-issue-from-file@v3
+      #  with:
+      #    title: Link Checker Report
+      #    content-filepath: ./lychee/out.md
+      #    labels: report, automated issue
