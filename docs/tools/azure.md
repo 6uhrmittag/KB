@@ -89,3 +89,26 @@ https://github.com/nicolonsky/ModernWorkplaceConcierge/wiki
     - https://github.com/aaronparker/intune/blob/main/Devices/Set-LenovoVantage.ps1
 - login restriction to non local accounts
     - https://systemcenterdudes.com/intune-device-profile-user-login-restriction/
+
+
+## HyperV test environment
+via https://github.com/tabs-not-spaces/Intune.HV.Tools
+
+requires full iso: https://tb.rg-adguard.net/public.php (download to `C:\Lab\Win10_21H2_German_x64.iso`)
+
+init:
+````powershell
+Install-Module -Name Intune.HV.Tools -Scope CurrentUser
+Install-Module -Name Hyper-ConvertImage
+Install-Module -Name Microsoft.Graph.Intune
+Install-Module -Name WindowsAutoPilotIntune
+Initialize-HVTools -Path C:\Lab
+Add-ImageToConfig -ImageName "2004" -IsoPath "C:\Lab\Win10_21H2_German_x64.iso"
+Add-TenantToConfig -TenantName 'CompuGlobalHyperMegaNet' -ImageName 2004 -AdminUpn 'homer@CompuGlobalHyperMegaNet.com'
+Add-NetworkToConfig -VSwitchName 'Default Switch'
+````
+create VMs without autopilot enabled:
+
+````powershell
+New-ClientVM -TenantName 'CompuGlobalHyperMegaNet' -OSBuild 2004 -NumberOfVMs 2 -CPUsPerVM 4 -VMMemory 4gb -SkipAutopilot
+````
