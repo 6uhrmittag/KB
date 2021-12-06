@@ -78,8 +78,34 @@ https://github.com/nicolonsky/ModernWorkplaceConcierge/wiki
 
 ### deployment
 
-- create usb stick for autopilot
-    - https://github.com/tabs-not-spaces/Intune.USB.Creator
+#### create usb stick for autopilot
+https://powers-hell.com/2020/05/04/create-a-bootable-windows-10-autopilot-device-with-powershell/
+https://github.com/tabs-not-spaces/Intune.USB.Creator
+
+requires full iso: https://tb.rg-adguard.net/public.php
+in Powershell 5 admin:
+````powershell
+Install-Module MSAL.PS -Scope CurrentUser
+Install-Module AzureAD -Scope CurrentUser
+````
+Install-Module MSAL.PS
+in Powershell 7 admin:
+````powershell
+Install-Module MSAL.PS -Scope CurrentUser
+````
+in Powershell 7
+````powershell
+Install-Module MSAL.PS -Scope CurrentUser -Force
+Install-Module AzureAD -Scope CurrentUser -Force
+Install-Module WindowsAutoPilotIntune -Scope CurrentUser -Force
+Install-Module Microsoft.Graph.Intune -Scope CurrentUser -Force
+Install-Module Intune.USB.Creator -Scope CurrentUser -Force
+````
+
+in Powershell 7
+````powershell
+sudo Publish-ImageToUSB -winPEPath "https://githublfs.blob.core.windows.net/storage/WinPE.zip" -windowsIsoPath "C:\Lab\Win10_21H2_German_x64.iso" -getAutopilotCfg
+````
 
 ## todos
 
