@@ -35,7 +35,8 @@ end
 
 ### install winget apps
 
-https://www.getrubix.com/blog/intune-and-package-managers-part-2-winget
+- https://www.getrubix.com/blog/intune-and-package-managers-part-2-winget
+- https://www.reddit.com/r/Intune/comments/rb6tr9/winget_and_win32app_package_creation_form/
 
 #### auto update winget apps
 
@@ -70,6 +71,11 @@ https://github.com/nicolonsky/ModernWorkplaceConcierge/wiki
 - intune gui
     - https://github.com/Micke-K/IntuneManagement
 - https://www.wpninjas.ch/tools/
+- force intune sync
+  - https://oliverkieselbach.com/2020/11/03/triggering-intune-management-extension-ime-sync/
+  - https://oofhours.com/2019/09/28/forcing-an-mdm-sync-from-a-windows-10-client/
+- intro to mdm
+  - https://www.thelazyadministrator.com/2018/11/19/configure-and-deploy-intune-mdm/
 
 ### testing
 
