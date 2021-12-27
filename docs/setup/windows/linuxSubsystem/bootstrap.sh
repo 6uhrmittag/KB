@@ -109,36 +109,30 @@ end-section
 # setup unattendet Upgrades
 # Source https://gist.github.com/waja/d9e176f712ae6a6e4442486df80a13ba
 
-cat > sudo /etc/apt/apt.conf.d/10periodic <<EOF
+cat > '/etc/apt/apt.conf.d/99unattended-upgrades' <<EOF
+Unattended-Upgrade::Origins-Pattern {
+        "site=*";
+};
+EOF
+
+cat > '/etc/apt/apt.conf.d/10periodic' <<EOF
 APT::Periodic::Update-Package-Lists "1";
 APT::Periodic::Download-Upgradeable-Packages "1";
 APT::Periodic::AutocleanInterval "7";
 APT::Periodic::Unattended-Upgrade "1";
 EOF
 
-cat > sudo /etc/apt/apt.conf.d/99unattended-upgrades <<EOF
-Unattended-Upgrade::Origins-Pattern {
-        "site=*";
-};
-EOF
-
 #####
 
 # WSL
-sudo bash -c 'cat > sudo /etc/wsl.conf' << EOF
-[automount]
-enabled=true
-options="metadata,umask=0033"
-EOF
-
-sudo bash -c 'cat << EOF > /etc/wsl.conf
+cat > '/etc/wsl.conf' <<EOF
 [automount]
 enabled=true
 # unterbindet "world readable", führt bei einigen Tools(gem) zu Warnungen
 options="metadata,umask=0033"
-EOF'
+EOF
 
-cat > /mnt/c/Users/<Username>/.wslconfig <<EOF
+cat > '/mnt/c/Users/<Username>/.wslconfig' <<EOF
 [wsl2]
 memory=4GB # Limits VM memory in WSL 2 to 4 GB
 EOF
