@@ -171,6 +171,7 @@ winget install -e --id Mirantis.Lens
 winget install -e --id Beeftext.Beeftext
 winget install -e --id JohnMacFarlane.Pandoc
 winget install -e --id=Microsoft.Teams.Preview
+winget install -e --id=Python.Python.3  -e
 ````
 
 
