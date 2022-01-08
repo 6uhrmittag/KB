@@ -113,6 +113,10 @@ in Powershell 7
 sudo Publish-ImageToUSB -winPEPath "https://githublfs.blob.core.windows.net/storage/WinPE.zip" -windowsIsoPath "C:\Lab\Win10_21H2_German_x64.iso" -getAutopilotCfg
 ````
 
+## Intune Sandbox
+
+https://github.com/UniverseCitiz3n/Intune-App-Sandbox
+
 ## todos
 
 - deploy winget via intune
