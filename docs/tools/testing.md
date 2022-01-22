@@ -168,3 +168,16 @@ pip install gixy
 ## docker
 
 - https://github.com/docker/docker-bench-security
+
+
+# Hardware 
+## Keyboard & Mouse
+
+- online, keyboard only, feedback sound + event-details *best for keyboard*
+  - https://config.qmk.fm/#/test
+- online, keyboard only
+  - https://kbs.im/
+- offline, keyboard & mouse, LED-Test, no Feedback sound, 30-day trail
+  - https://www.passmark.com/products/keytest/index.php
+- offline, keyboard events only, freeware by Nirsoft
+  - https://www.nirsoft.net/utils/keyboard_state_view.html
