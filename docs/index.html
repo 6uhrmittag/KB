@@ -70,6 +70,10 @@
                 alias: {
                     '/_glossary': '/booknotes/books',
                     '/.*/_sidebar.md': '/_sidebar.md'
+                },
+                timeUpdater: {
+                    text: "> last modified: {docsify-updated}",
+                    formatUpdated: "{DD}.{MM}.{YYYY} - {HH}:{mm}.{ss}h",
                 }
             };
         </script>
@@ -112,6 +116,9 @@
         <script src="https://cdn.jsdelivr.net/npm/docsify-plugin-flexible-alerts@latest/dist/docsify-plugin-flexible-alerts.min.js"></script>
 
         <script src="docsify-glossary.js"></script>
+
+        <!-- docsify plugin: docsify-updated -->
+        <script src="https://cdn.jsdelivr.net/npm/docsify-updated@1/src/time-updater.js"></script>
 
         <!-- docsify plugin: Show Changelog
         TODO: generate Changelog
