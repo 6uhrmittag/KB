@@ -53,13 +53,13 @@ body {
     top: 0;
     right: 0;
     bottom: 0;
-    left: 300px;
+    left: 50px;
     transition: left 0.25s ease;
 }
 
 .markdown-section {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 1000px;
     padding: 30px 15px 40px;
     position: relative;
 }
@@ -83,6 +83,11 @@ body {
     border: 1px solid #eee;
     width: 1px;
     min-width: 100%;
+}
+
+.markdown-section h2 {
+    border: none;
+    border-bottom: 2px solid #eee;
 }
 
 .markdown-section table {
