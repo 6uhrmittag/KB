@@ -224,6 +224,15 @@ sudo machinery show localhost
 sudo machinery export-html --html-dir test localhost
 ````
 
+## backup
+
+### backup - windows
+
+- Veeam Agent for Microsoft Windows FREE
+  - https://www.veeam.com/de/windows-endpoint-server-backup-free.html
+- Macrium Reflect 7 Free Edition
+  - https://www.macrium.com/reflectfree
+
 ## tools to check out
 
 - https://github.com/agarrharr/awesome-cli-apps
