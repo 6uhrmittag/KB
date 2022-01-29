@@ -30,6 +30,11 @@
 - https://heinventions.github.io/docnado-site/
 - https://github.com/myles/awesome-static-generators
 
+### web components(javascript, templates etc.)
+
+- modern snippets incl. preview. many free with account
+  - https://codyhouse.co/ds/components
+
 ## Diagrams
 
 - https://www.infoq.com/articles/crafting-architectural-diagrams
