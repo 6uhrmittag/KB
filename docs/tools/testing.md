@@ -117,6 +117,7 @@ https://httpd.apache.org/docs/current/howto/http2.html
 - h2load - useful to stress-test your server.
     - https://nghttp2.org/documentation/h2load-howto.html
 - https://blog.cloudflare.com/tools-for-debugging-testing-and-using-http-2/
+
 ### h2load
 
 https://nghttp2.org/documentation/h2load-howto.html
@@ -130,12 +131,14 @@ sudo apt install nghttp2
 -c - The number of concurrent clients. Default: 1
 -m - The max concurrent streams to issue per client. Default: 1
 ````
+
 ````shell
 h2load  https://domain.tld/ -n 90 -c 30 -H 'Authorization: Basic dfgdfg' -m5 --h1
 h2load  https://domain.tld/ -n 90 -c 30 -H 'Authorization: Basic Ydfgdfg'
 ````
 
 ### nghttp
+
 ````shell
 sudo apt install nghttp2
 ````
@@ -153,8 +156,7 @@ https://nghttp2.org/documentation/nghttp.1.html
 nghttp -nv https://nghttp2.org
 ````
 
-
-## nginx 
+## nginx
 
 - https://github.com/yandex/gixy
 - https://github.com/temoto/nginx-lint
@@ -162,27 +164,25 @@ nghttp -nv https://nghttp2.org
 - https://github.com/jhinch/nginx-linter
 - https://github.com/digitalocean/nginxconfig.io
 
-npm install -g nginx-linter
-pip install gixy
-
+npm install -g nginx-linter pip install gixy
 
 ## docker
 
 - https://github.com/docker/docker-bench-security
 - generate BOM of image - https://github.com/anchore/syft/
-  - syft `image:tag`
+    - syft `image:tag`
 - scan image packages for vulnerabilities - https://github.com/anchore/grype
-  - grype `image:tag`
+    - grype `image:tag`
 
+# Hardware
 
-# Hardware 
 ## Keyboard & Mouse
 
 - online, keyboard only, feedback sound + event-details *best for keyboard*
-  - https://config.qmk.fm/#/test
+    - https://config.qmk.fm/#/test
 - online, keyboard only
-  - https://kbs.im/
+    - https://kbs.im/
 - offline, keyboard & mouse, LED-Test, no Feedback sound, 30-day trail
-  - https://www.passmark.com/products/keytest/index.php
+    - https://www.passmark.com/products/keytest/index.php
 - offline, keyboard events only, freeware by Nirsoft
-  - https://www.nirsoft.net/utils/keyboard_state_view.html
+    - https://www.nirsoft.net/utils/keyboard_state_view.html

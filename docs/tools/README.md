@@ -3,10 +3,10 @@
 ## Templating/Boilerplates
 
 - go-replace - best tool to replace variables in files with environment files (like envsubt, but with go-template)
-  - https://github.com/webdevops/go-replace
+    - https://github.com/webdevops/go-replace
 - boilr - generate files and directories based on templating tool
-  - can generate single files(unlike cookiecutter) 
-  - https://github.com/rgeyer/boilr (original repo is unmaintained)
+    - can generate single files(unlike cookiecutter)
+    - https://github.com/rgeyer/boilr (original repo is unmaintained)
 
 ## website frameworks/generators
 
@@ -33,7 +33,7 @@
 ### web components(javascript, templates etc.)
 
 - modern snippets incl. preview. many free with account
-  - https://codyhouse.co/ds/components
+    - https://codyhouse.co/ds/components
 
 ## Diagrams
 
@@ -129,7 +129,7 @@
 - Nginx config testing
     - https://github.com/yandex/gixy
 - Nginx live config playground
-  - https://nginx-playground.wizardzines.com/
+    - https://nginx-playground.wizardzines.com/
 
 ## system tools
 
@@ -160,7 +160,8 @@
 - https://docs.microsoft.com/en-us/sysinternals/
     - in terminal, without download: `live.sysinternals.com/<toolname>`
 - random mini tools
-  - https://www.sordum.org/
+    - https://www.sordum.org/
+
 ## Windows Misc. Tools (to install for daily use)
 
 - Windows Explorer Media-File preview(by pressing spacebar): https://github.com/QL-Win/QuickLook
@@ -199,7 +200,6 @@
 - https://www.perfectautomation.com/
 - https://thetinytask.com/
 
-
 ## Log viewer
 
 - https://github.com/tmoreno/open-log-viewer
@@ -217,6 +217,7 @@
 - https://github.com/variar/klogg
 
 ## other
+
 ## machinery-project
 
 inventory tool can clone suse systems, also works on ubuntu
@@ -241,9 +242,9 @@ sudo machinery export-html --html-dir test localhost
 ### backup - windows
 
 - Veeam Agent for Microsoft Windows FREE
-  - https://www.veeam.com/de/windows-endpoint-server-backup-free.html
+    - https://www.veeam.com/de/windows-endpoint-server-backup-free.html
 - Macrium Reflect 7 Free Edition
-  - https://www.macrium.com/reflectfree
+    - https://www.macrium.com/reflectfree
 
 ## tools to check out
 
@@ -264,6 +265,6 @@ sudo machinery export-html --html-dir test localhost
 - https://github.com/tkainrad/keycombiner
 - https://github.com/ajeetdsouza/zoxide
 
-
 ## threat modeling
+
 - https://docs.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-getting-started

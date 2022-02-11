@@ -3,8 +3,8 @@
 ## Techniken
 
 Die Idee, dass _note-making_ sinnvoller ist, als _note-taking_, ist keine neue.  
-Edgar Wright hat bereits vor 40 Jahren die Vorteile von _note-making_ beschrieben - weil hierbei Informationen wirklich verbunden (und somit langzeit-gespeichert) werden(Buch: On Your Own by Edgar
-Wright). Wissenschaftliche Arbeiten scheinen zu bestätigen, dass das einfache _note-taking_ kaum einen Langzeiteffekt hat.  
+Edgar Wright hat bereits vor 40 Jahren die Vorteile von _note-making_ beschrieben - weil hierbei Informationen wirklich verbunden (und somit langzeit-gespeichert) werden(Buch: On Your Own by Edgar Wright). Wissenschaftliche Arbeiten scheinen zu bestätigen, dass das einfache _
+note-taking_ kaum einen Langzeiteffekt hat.  
 Wichtig beim Erstellen von Notizen ist vor allem, dass eigene **umformulieren** in die eigene Sprache, das **Verknüpfen** mit ähnlichen Themen und das tiefe verknüpfen **mit eigenem Wissen**.[1]
 
 Eine der Arten, alle nötigen Schritte zu vereinen ist diese hier - das Erstellen eines digitalen Gartens, indem das eigene Wissen heranwächst.
@@ -51,8 +51,7 @@ Interessant ist die Idee eines _mentalen Atlasses_ - hier wird die Karte in eine
 - Spätimplantat -> Zeitversetzter Knochenaufbau + Implantierung [8]
 
 - stellt einen chirurgischen Eingriff da [1]
-- es ist nicht sichergestellt, dass der Eingriff wahrscheinlich erfolgreich verläuft (Statistisch Probleme: 3 % sofort,
-  75 % nach 15 Jahren) [1]
+- es ist nicht sichergestellt, dass der Eingriff wahrscheinlich erfolgreich verläuft (Statistisch Probleme: 3 % sofort, 75 % nach 15 Jahren) [1]
 - viele Faktoren beeinflussen Erfolg [1]
     - Gesundheitszustand [1]
     - Wundheilung [1]
