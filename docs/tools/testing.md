@@ -63,6 +63,7 @@ httping $URL -b -l -s -W -i 1  | ts
 - https://hackertarget.com/wordpress-security-scan- wordpress security scanner
 - https://securityheaders.com - CSP Header check
 - https://csp-evaluator.withgoogle.com - View CSP Header of URLs(CSP Debugger)
+- https://github.com/lirantal/is-website-vulnerable
 
 ### websites/http - https/tls
 
@@ -168,6 +169,10 @@ pip install gixy
 ## docker
 
 - https://github.com/docker/docker-bench-security
+- generate BOM of image - https://github.com/anchore/syft/
+  - syft `image:tag`
+- scan image packages for vulnerabilities - https://github.com/anchore/grype
+  - grype `image:tag`
 
 
 # Hardware 
