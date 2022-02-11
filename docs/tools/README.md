@@ -202,7 +202,19 @@
 
 ## Log viewer
 
-https://github.com/tmoreno/open-log-viewer
+- https://github.com/tmoreno/open-log-viewer
+- https://github.com/woanware/LogViewer2
+- https://github.com/Scarfsail/AdvancedLogViewer
+- https://sourceforge.net/projects/gamutlogviewer/
+- http://tringi.trimcore.cz/Dynamic_Log_Viewer
+- https://github.com/jtorjo/logwizard
+- http://glogg.bonnefon.org/
+- https://github.com/sergey-su/logjoint
+- https://github.com/zarunbal/LogExpert
+- https://github.com/fishjam/LogViewer
+- https://www.softpedia.com/get/System/File-Management/Legit-Log-Viewer.shtml#sgal_1
+- https://github.com/esrlabs/chipmunk
+- https://github.com/variar/klogg
 
 ## other
 ## machinery-project
@@ -251,3 +263,7 @@ sudo machinery export-html --html-dir test localhost
 - https://usedevbook.com/
 - https://github.com/tkainrad/keycombiner
 - https://github.com/ajeetdsouza/zoxide
+
+
+## threat modeling
+- https://docs.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-getting-started
