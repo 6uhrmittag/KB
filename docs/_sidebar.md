@@ -16,6 +16,7 @@
     - [Testing tools](tools/windows.md)
     - [Azure/AzureAD](tools/azure.md)
     - [Vagrant](tools/vagrant.md)
+    - [BSI Tools](tools/bsi.md)
     - [InSpec](tools/inspec.md)
     - [Puppet](tools/puppet.md)
     - [ELK-Stack](tools/elk_logstash.md)
