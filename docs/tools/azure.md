@@ -37,6 +37,7 @@ end
 
 - https://www.getrubix.com/blog/intune-and-package-managers-part-2-winget
 - https://www.reddit.com/r/Intune/comments/rb6tr9/winget_and_win32app_package_creation_form/
+- https://justgeeks.co/index.php/articles-menu/13-intune-install-software-with-winget
 
 #### auto update winget apps
 
