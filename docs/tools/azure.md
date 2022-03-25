@@ -14,20 +14,20 @@ Vagrantfile
 
 ````yaml
 Vagrant.configure(2) do |config|
-    config.vm.box = "gusztavvargadr/windows-10"
-    
-    config.vm.guest = :windows
-    config.vm.boot_timeout = 600
-    
-      # config.vm.communicator = 'winrm'
-      # config.winssh.shell = 'powershell'
-    
-    config.vm.provider 'hyperv' do |h|
-        h.vmname = "test-vm-#{rand(01..99)}"
-        h.cpus = 2
-        h.memory = 4096
-        h.ip_address_timeout = 600
-    end
+config.vm.box = "gusztavvargadr/windows-10"
+
+config.vm.guest = :windows
+config.vm.boot_timeout = 600
+
+  # config.vm.communicator = 'winrm'
+  # config.winssh.shell = 'powershell'
+
+config.vm.provider 'hyperv' do |h|
+h.vmname = "test-vm-#{rand(01..99)}"
+h.cpus = 2
+h.memory = 4096
+h.ip_address_timeout = 600
+end
 end
 ````
 
@@ -72,10 +72,10 @@ https://github.com/nicolonsky/ModernWorkplaceConcierge/wiki
     - https://github.com/Micke-K/IntuneManagement
 - https://www.wpninjas.ch/tools/
 - force intune sync
-  - https://oliverkieselbach.com/2020/11/03/triggering-intune-management-extension-ime-sync/
-  - https://oofhours.com/2019/09/28/forcing-an-mdm-sync-from-a-windows-10-client/
+    - https://oliverkieselbach.com/2020/11/03/triggering-intune-management-extension-ime-sync/
+    - https://oofhours.com/2019/09/28/forcing-an-mdm-sync-from-a-windows-10-client/
 - intro to mdm
-  - https://www.thelazyadministrator.com/2018/11/19/configure-and-deploy-intune-mdm/
+    - https://www.thelazyadministrator.com/2018/11/19/configure-and-deploy-intune-mdm/
 
 ### testing
 
@@ -85,21 +85,26 @@ https://github.com/nicolonsky/ModernWorkplaceConcierge/wiki
 ### deployment
 
 #### create usb stick for autopilot
+
 https://powers-hell.com/2020/05/04/create-a-bootable-windows-10-autopilot-device-with-powershell/
 https://github.com/tabs-not-spaces/Intune.USB.Creator
 
 requires full iso: https://tb.rg-adguard.net/public.php
 in Powershell 5 admin:
+
 ````powershell
 Install-Module MSAL.PS -Scope CurrentUser
 Install-Module AzureAD -Scope CurrentUser
 ````
-Install-Module MSAL.PS
-in Powershell 7 admin:
+
+Install-Module MSAL.PS in Powershell 7 admin:
+
 ````powershell
 Install-Module MSAL.PS -Scope CurrentUser
 ````
+
 in Powershell 7
+
 ````powershell
 Install-Module MSAL.PS -Scope CurrentUser -Force
 Install-Module AzureAD -Scope CurrentUser -Force
@@ -109,6 +114,7 @@ Install-Module Intune.USB.Creator -Scope CurrentUser -Force
 ````
 
 in Powershell 7
+
 ````powershell
 sudo Publish-ImageToUSB -winPEPath "https://githublfs.blob.core.windows.net/storage/WinPE.zip" -windowsIsoPath "C:\Lab\Win10_21H2_German_x64.iso" -getAutopilotCfg
 ````
@@ -126,13 +132,14 @@ https://github.com/UniverseCitiz3n/Intune-App-Sandbox
 - login restriction to non local accounts
     - https://systemcenterdudes.com/intune-device-profile-user-login-restriction/
 
-
 ## HyperV test environment
+
 via https://github.com/tabs-not-spaces/Intune.HV.Tools
 
 requires full iso: https://tb.rg-adguard.net/public.php (download to `C:\Lab\Win10_21H2_German_x64.iso`)
 
 init:
+
 ````powershell
 Install-Module -Name Intune.HV.Tools -Scope CurrentUser
 Install-Module -Name Hyper-ConvertImage
@@ -143,6 +150,7 @@ Add-ImageToConfig -ImageName "2004" -IsoPath "C:\Lab\Win10_21H2_German_x64.iso"
 Add-TenantToConfig -TenantName 'CompuGlobalHyperMegaNet' -ImageName 2004 -AdminUpn 'homer@CompuGlobalHyperMegaNet.com'
 Add-NetworkToConfig -VSwitchName 'Default Switch'
 ````
+
 create VMs without autopilot enabled:
 
 ````powershell
