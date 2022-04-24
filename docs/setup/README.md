@@ -179,3 +179,11 @@ winget install -e --id Microsoft.MouseandKeyboardCenter
 ````powershell
 winget uninstall -e Microsoft.WindowsTerminal
 ````
+
+## putty/kitty
+
+import/export Settings: https://www.9bis.net/kitty/#!pages/Portability.md
+
+## superputty
+
+copy dir: `~\Documents\SuperPuTTY`
