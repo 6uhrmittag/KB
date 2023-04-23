@@ -202,6 +202,7 @@ winget install -e --id JetBrains.Toolbox
 winget install -e --id Microsoft.PowerShell
 winget install -e --id mcmilk.7zip-zstd
 winget install -e --id Logitech.LogiTune
+winget install -e --id ogdesign.Eagle
 ````
 
 ### DevTools
