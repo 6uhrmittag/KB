@@ -1,0 +1,34 @@
+{
+  "MaxResult": 100,
+  "QuickAccessLinks": [],
+  "IndexSearchExcludedSubdirectoryPaths": [
+    {
+      "Path": "G:\\",
+      "Type": 1
+    }
+  ],
+  "EditorPath": "",
+  "FolderEditorPath": "",
+  "ShellPath": "cmd",
+  "UseLocationAsWorkingDir": false,
+  "ShowWindowsContextMenu": true,
+  "SearchActionKeyword": "*",
+  "SearchActionKeywordEnabled": true,
+  "FileContentSearchActionKeyword": "doc:",
+  "FileContentSearchKeywordEnabled": true,
+  "PathSearchActionKeyword": "*",
+  "PathSearchKeywordEnabled": false,
+  "IndexSearchActionKeyword": "*",
+  "IndexSearchKeywordEnabled": false,
+  "QuickAccessActionKeyword": "*",
+  "QuickAccessKeywordEnabled": false,
+  "WarnWindowsSearchServiceOff": true,
+  "IndexSearchEngine": 1,
+  "PathEnumerationEngine": 1,
+  "ContentSearchEngine": 1,
+  "EverythingInstalledPath": "C:\\Program Files\\Everything",
+  "SortOption": 1,
+  "EnableEverythingContentSearch": false,
+  "EverythingEnabled": true,
+  "EverythingSearchFullPath": true
+}

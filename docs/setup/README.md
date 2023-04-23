@@ -189,7 +189,7 @@ Set-ItemProperty -Path REGISTRY::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\C
 
 ````powershell
 winget install -e --id Microsoft.WindowsTerminal
-winget install -e --id Wox.Wox
+winget install -e --id Flow-Launcher.Flow-Launcher
 winget install -e --id voidtools.Everything
 winget install -e --id TorProject.TorBrowser
 winget install -e --id CodeSector.TeraCopy

@@ -1,0 +1,56 @@
+{
+  "SearchSources": [
+    {
+      "Title": "Google",
+      "ActionKeyword": "*",
+      "Icon": "google.png",
+      "CustomIcon": false,
+      "Url": "https://www.google.com/search?q={q}",
+      "Enabled": true
+    },
+    {
+      "Title": "Wikipedia",
+      "ActionKeyword": "wiki",
+      "Icon": "wiki.png",
+      "CustomIcon": false,
+      "Url": "https://en.wikipedia.org/wiki/{q}",
+      "Enabled": true
+    },
+    {
+      "Title": "Google Maps",
+      "ActionKeyword": "maps",
+      "Icon": "google_maps.png",
+      "CustomIcon": false,
+      "Url": "https://maps.google.com/maps?q={q}",
+      "Enabled": true
+    },
+    {
+      "Title": "GitHub",
+      "ActionKeyword": "github",
+      "Icon": "github.png",
+      "CustomIcon": false,
+      "Url": "https://github.com/search?q={q}",
+      "Enabled": true
+    },
+    {
+      "Title": "WolframAlpha",
+      "ActionKeyword": "wolframalpha",
+      "Icon": "wolframalpha.png",
+      "CustomIcon": false,
+      "Url": "https://www.wolframalpha.com/input/?i={q}",
+      "Enabled": true
+    },
+    {
+      "Title": "YouTube",
+      "ActionKeyword": "youtube",
+      "Icon": "youtube.png",
+      "CustomIcon": false,
+      "Url": "https://www.youtube.com/results?search_query={q}",
+      "Enabled": true
+    }
+  ],
+  "EnableSuggestion": true,
+  "Suggestion": "Google",
+  "BrowserPath": null,
+  "OpenInNewBrowser": true
+}
