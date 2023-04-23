@@ -99,6 +99,10 @@ scoop uninstall <app>
 ### Jetbrains IDE
 - https://developpaper.com/using-typora-to-edit-markdown-file-in-pycharm/
 
+### Logitech Capture
+
+- https://www.logitech.com/de-de/software/capture.html
+
 ## Powershell
 ### Install Preview 7
 Install Powershell 7 via WinStore
@@ -120,9 +124,9 @@ notepad.exe $PROFILE
 ````
 Copy content from: https://raw.githubusercontent.com/6uhrmittag/KB/master/docs/setup/windows/Microsoft.PowerShell_profile.ps1
 
-## Terminal
+## Windows Terminal
 ### Install
-Windows Terminal Preview: https://aka.ms/terminal
+included in Win 11
 
 ### Settings
 Move needed parts in settings.json (via Terminal -> Settings): https://raw.githubusercontent.com/6uhrmittag/KB/master/docs/setup/windows/terminal/settings.json
@@ -144,40 +148,77 @@ Move needed parts in settings.json (via Terminal -> Settings): https://raw.githu
 
 ## winget (experimental)
 
--> doesnt really work. will run winget as admin.. installs user programms to admin  
-Skip UAC:
-https://github.com/microsoft/winget-cli/issues/271#issuecomment-943002770
+Search: https://winget.run/
+
+### Notes aboute UAC
+UAC interrupts installs. Use gsudo or disable/re-enable UAC manually before/after usage
+
+https://github.com/gerardog/gsudo:
 ````powershell
 winget install gerardog.gsudo
 ````
+
+usage:
+
+````text
+# start new Shell with admin
+gsudo -n
+# make current session admin with cached creds
 gsudo cache on
+# disable cache
 gsudo cache off
 gsudo -k
+````
+
+
+#### Disable UAC via Powershell
+
+Disable:
 
 ````powershell
-winget install -e Microsoft.WindowsTerminal.Preview
-winget install -e Typora.Typora
-# aktuell via scoop
-winget install -e --id HeidiSQL.HeidiSQL
-winget install -e --id BraveSoftware.BraveBrowser
-winget install -e --id NickeManarin.ScreenToGif
+Set-ItemProperty -Path REGISTRY::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System -Name ConsentPromptBehaviorAdmin -Value 0
+````
+
+Re-enable UAC:
+
+````powershell
+Set-ItemProperty -Path REGISTRY::HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System -Name ConsentPromptBehaviorAdmin -Value 2
+````
+
+### Basic Tools
+
+````powershell
+winget install -e --id Microsoft.WindowsTerminal
 winget install -e --id Wox.Wox
 winget install -e --id voidtools.Everything
 winget install -e --id TorProject.TorBrowser
 winget install -e --id CodeSector.TeraCopy
 winget install -e --id DuongDieuPhap.ImageGlass
-winget install -e --id scottlerch.hosts-file-editor
-winget install -e --id Mirantis.Lens
-winget install -e --id Beeftext.Beeftext
-winget install -e --id JohnMacFarlane.Pandoc
-winget install -e --id=Microsoft.Teams.Preview
-winget install -e --id=Python.Python.3  -e
+winget install -e --id QL-Win.QuickLook
+winget install -e --id Google.Drive
+winget install -e --id Google.Chrome
 winget install -e --id Microsoft.MouseandKeyboardCenter
+winget install -e --id JetBrains.Toolbox
+winget install -e --id Microsoft.PowerShell
+winget install -e --id mcmilk.7zip-zstd
+winget install -e --id Logitech.LogiTune
 ````
 
+### DevTools
 
 ````powershell
-winget uninstall -e Microsoft.WindowsTerminal
+winget install -e --id=Python.Python.3
+winget install -e --id JohnMacFarlane.Pandoc
+winget install -e --id Mirantis.Lens
+winget install -e --id scottlerch.hosts-file-editor
+winget install -e --id HeidiSQL.HeidiSQL
+winget install -e --id NickeManarin.ScreenToGif
+````
+
+### Update all
+
+````powershell
+winget upgrade --all
 ````
 
 ## putty/kitty
@@ -187,3 +228,18 @@ import/export Settings: https://www.9bis.net/kitty/#!pages/Portability.md
 ## superputty
 
 copy dir: `~\Documents\SuperPuTTY`
+
+## Windows 11 Tweaks
+
+- TODO -
+
+### Ressources:
+
+- https://github.com/valinet/ExplorerPatcher
+- https://github.com/99natmar99/Windows-11-Fixer
+- https://github.com/bbmaster123/10SM
+- https://github.com/awesome-windows11/windows11
+- https://github.com/PeterStrick/ViVeTool-GUI
+- https://github.com/ikas-mc/ContextMenuForWindows11
+- https://github.com/farag2/Sophia-Script-for-Windows
+- https://github.com/M2Team/NanaZip
