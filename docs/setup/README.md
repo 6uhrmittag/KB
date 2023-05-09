@@ -203,6 +203,9 @@ winget install -e --id Microsoft.PowerShell
 winget install -e --id mcmilk.7zip-zstd
 winget install -e --id Logitech.LogiTune
 winget install -e --id ogdesign.Eagle
+winget install -e --id VideoLAN.VLC
+winget install -e --id Notepad++.Notepad++
+winget install -e --id Greenshot.Greenshot
 ````
 
 ### DevTools
