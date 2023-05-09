@@ -30,3 +30,5 @@
     - [Windows](setup/)
     - [Linux Subsystem](setup/windows/linuxSubsystem/)
     - [Laptop](setup/windows/laptop/)
+- Things
+    - [Things](things/)
