@@ -10,6 +10,7 @@
     - [Book notes](booknotes/)
     - [Book reference](booknotes/books.md)
     - [Random IT](notes/random_computer.md)
+- [💡Cheatsheet](cheatsheet/)
 - Tools
     - [Usefull tools](tools/)
     - [Testing tools](tools/testing.md)
