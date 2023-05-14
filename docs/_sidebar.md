@@ -23,8 +23,8 @@
     - [ELK-Stack](tools/elk_logstash.md)
     - [Muse Score](tools/MuseScore.md)
 - [Programming](programming/)
+  - [PowerShell Scripting](programming/PowerShell_Scripting.md)
 - [Resources](resources/)
-- [Cheatsheet](cheatsheet/)
 - Checklists
     - [Server](checklists/server.md)
 - Workstation Setup
