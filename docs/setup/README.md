@@ -206,6 +206,7 @@ winget install -e --id ogdesign.Eagle
 winget install -e --id VideoLAN.VLC
 winget install -e --id Notepad++.Notepad++
 winget install -e --id Greenshot.Greenshot
+winget install -e --id eMClient.eMClient
 ````
 
 ### DevTools
