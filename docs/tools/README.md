@@ -55,6 +55,10 @@
 - https://www.diagram.codes/ **untested yet**
 - https://diagrams.mingrammer.com/ Duagran as Code(Python) **untested yet**
 - https://github.com/gaphor/gaphor easy to use UML **untested yet**
+- https://vexlio.com/
+    - simple diagrams, on-time purchase, desktop
+- https://playground.diagram.codes/
+  - different types of diagrams by code, online
 
 #### infrastructure diagrams
 
@@ -72,6 +76,7 @@
 - https://www.heise.de/download/product/papdesigner-51889 - super simple Flowcharts, Programmablaufpläne, PAP
 - http://www.nomnoml.com/
 - https://github.com/gaphor/gaphor **untested yet**
+- https://structurizr.com/ - "diagrams as code
 
 #### BPMN - Business Process Model and Notation
 
@@ -102,12 +107,17 @@
 - Railroad-diagram Generator: https://github.com/tabatkins/railroad-diagrams  **untested yet**
 - ilograph - interactive diagrams of code: https://www.ilograph.com/  **untested yet**
 - https://excalidraw.com/  **untested yet**
+- https://schemio.app/#/
+    - interactive diagrams, free, online
+- https://text-to-diagram.com/
+  - comparisons between Text to Diagram tools, inkl. online editor
 
 #### infographics
 
 - https://infogram.com/ **untested yet**
 - https://www.moovly.com/ **untested yet**
 - https://venngage.com/ **untested yet**
+- https://graficto.com/ **untested yet**
 
 #### stencils, icons
 
