@@ -208,6 +208,7 @@ winget install -e --id Notepad++.Notepad++
 winget install -e --id Greenshot.Greenshot
 winget install -e --id eMClient.eMClient
 winget install -e --id HulubuluSoftware.AdvancedRenamer
+winget install -e --id JAMSoftware.TreeSize.Free
 ````
 
 ### DevTools
