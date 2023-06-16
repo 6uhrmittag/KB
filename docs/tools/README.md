@@ -278,3 +278,8 @@ sudo machinery export-html --html-dir test localhost
 ## threat modeling
 
 - https://docs.microsoft.com/en-us/azure/security/develop/threat-modeling-tool-getting-started
+
+## transportation
+
+- Map of direct train connections from any City
+  - https://direkt.bahn.guru/?origin=8011160
