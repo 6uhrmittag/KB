@@ -78,3 +78,34 @@ Since Taskbutler modifies important user-data, it rather crashes completely than
 
 ### issue #25: Log rotation
 Unfortunately, this is one of those issues, that are easily avoidable with proper testing. After a few days of personal usage, I noticed logfiles a size 50-100MB. This was due to a debug-log that generated tons of data. Adding rotation solved the issue 
+
+## milestone: holding the development due to not keeping up with upstream dependencies
+
+![img.png](images/taskbutler_milestone_hold_commit.png)
+
+!> Copy and Past from the initial published release information at Github. I may write more about it in future
+
+### The project is currently on pause due to changes in the third-party APIs.
+
+**TLDR**: Taskbutler currently doesn't work as expected anymore. I plan to update Taskbutler in late 2023 ❤️
+
+### A personal note about development and Todoist
+
+I believe a significant issue preventing regular updates is the lack of end-to-end testing in Taskbutler, and in Todoist in general. When I delved into it, the best solution seemed to be to have a second premium account solely for testing – to build real end-to-end tests for the
+changes made by Taskbutler. However, at the time I started developing Taskbutler, this wasn't a feasible option for me. As a result, when I changed _just one a small thing_, I didn't validate the entire feature set. This also dissuaded me from updating all dependencies right at
+release.
+
+For the past few months, I haven't used Todoist because my "everything in one app" approach left me feeling overwhelmed a few times. This led to the current state - a few weeks ago, I realized that I had unplugged the Raspberry Pi that Taskbutler was running on... so I can't even
+confirm if any part of Taskbutler still works.
+
+**BUT I'm still excited about Todoist!**
+
+Todoist has undergone numerous changes over the past years. They've added a lot of minor features, but also made significant changes to their integrations - (I think. Maybe they've just rebranded to appear more open;D) - but I still love the features of Todoist that set it apart.
+The super-fast natural input and, most importantly, they remain one of the few with full API support and SDKs for multiple languages.
+
+The thing that rekindled my passion for Todoist was the announcement of experiments with **durations for tasks** (https://twitter.com/amix3k/status/1679047472729997312). This was one of my initial ideas for Taskbutler that I never realized because I didn't know where to store the
+necessary information (end date, duration) without awkwardly including it in the description or even in an external database... It would be fantastic to see that feature natively in Todoist!
+
+Anyway, as I mentioned earlier, I plan to update Taskbutler in late 2023❤️
+
+In case I write more about it, you can find my thoughts at https://slashlog.org/#/blog/dev/
