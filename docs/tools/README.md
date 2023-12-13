@@ -76,7 +76,8 @@
 - https://www.heise.de/download/product/papdesigner-51889 - super simple Flowcharts, Programmablaufpläne, PAP
 - http://www.nomnoml.com/
 - https://github.com/gaphor/gaphor **untested yet**
-- https://structurizr.com/ - "diagrams as code
+- https://structurizr.com/ - "diagrams as code"
+- https://structorizer.fisch.lu/index.php?include=screenshot - (requries Java 11)
 
 #### BPMN - Business Process Model and Notation
 
