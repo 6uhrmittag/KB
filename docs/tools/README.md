@@ -22,6 +22,9 @@
 ## real-time audio analyzer
 
 - https://friture.org/
+  - only downside: can analyze the output of windows, just inputs
+    - workaround: use https://vb-audio.com/Cable/index.htm
+      - install -> in Windows audio settings: set cable as default output -> in friture: set cable as input
 
 ## website frameworks/generators
 
