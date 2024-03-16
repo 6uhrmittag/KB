@@ -17,6 +17,12 @@
     - can generate single files(unlike cookiecutter)
     - https://github.com/rgeyer/boilr (original repo is unmaintained)
 
+## audio
+
+## real-time audio analyzer
+
+- https://friture.org/
+
 ## website frameworks/generators
 
 ### wikis
