@@ -1,5 +1,14 @@
 # tools
 
+## gaming
+
+### modding and asset extraction
+
+- https://github.com/zhangjiequan/AssetStudio
+  - for Unity games only
+  - Fork of https://github.com/Perfare/AssetStudio
+  - How To: https://www.youtube.com/watch?v=d_o1JH_kyeQ&t=9s
+
 ## Templating/Boilerplates
 
 - go-replace - best tool to replace variables in files with environment files (like envsubt, but with go-template)
