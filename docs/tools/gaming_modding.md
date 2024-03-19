@@ -36,7 +36,18 @@ The result is that even some of the universal mods listed in the MelonLoader Wik
 
 - https://steamcommunity.com/sharedfiles/filedetails/?id=2850274044
 - https://steamcommunity.com/sharedfiles/filedetails/?id=2854936721
--
+
+## links
+
+- https://github.com/loicreynier/awesome-modding
+- https://www.nexusmods.com/site/mods/21
+    - adds mod support for around 50 unity games
+- https://github.com/BepInEx/BepInEx
+    - mod loader, alternative to Melon loader
+    - https://www.nexusmods.com/site/mods/529
+        - alternative config manager for mods
+- https://github.com/ManlyMarco/RuntimeUnityEditor
+    - in-game editor and debugger for unity
 
 ## Game - Starri
 
