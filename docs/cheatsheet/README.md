@@ -24,6 +24,14 @@ echo "Subject: Mailfunktion TEST" | sendmail root
 echo "one two"| column -t -s' '
 ````
 
+# Handling Files
+
+## reading huge files with less (SQL dumps)
+
+````bash
+less -N -S sql_dump.sql
+````
+
 # Mysql
 
 ## Show DBs
@@ -152,10 +160,10 @@ loadkeys de
 - Tutorial:
     - https://developers.redhat.com/products/softwarecollections/hello-world/#fndtn-windows
 
-| Source | support life cycle | 
-| ---------- |------------|
-| Red Hat Enterprise Linux| up to 10 years           |
-| RHSCL         | 2-3 years           |
+| Source                   | support life cycle | 
+|--------------------------|--------------------|
+| Red Hat Enterprise Linux | up to 10 years     |
+| RHSCL                    | 2-3 years          |
 
 ### Available Software
 
