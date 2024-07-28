@@ -23,6 +23,7 @@
     - [ELK-Stack](tools/elk_logstash.md)
     - [Muse Score](tools/MuseScore.md)
     - [Game Modding](tools/gaming_modding.md)
+- [VirtualReality(VR)](VirtualReality(VR)/)
 - [Programming](programming/)
   - [PowerShell Scripting](programming/PowerShell_Scripting.md)
 - [Resources](resources/)
