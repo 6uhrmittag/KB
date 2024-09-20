@@ -16,12 +16,13 @@ echo "Subject: Mailfunktion TEST" | sendmail mail@mail.de
 echo "Subject: Mailfunktion TEST" | sendmail root
 ````
 
-# Shell
+# Postfix
 
-## Autoformat as table
+## delete specific mail from mailq
 
 ````bash
-echo "one two"| column -t -s' '
+mailq # output all mails in mailq
+postsuper -d <Queue ID> # like A8EA942632
 ````
 
 # Handling Files
