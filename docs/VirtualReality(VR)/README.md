@@ -14,6 +14,7 @@ What I use and like:
     - BOBOVR M2 Pro Elite Strap
         - Comes with an interactable battery pack that also works as a counterweight
             - These batteries seem a bit pricey, but... well, you only need two of them.
+            - **note after 2 months of use:** I noticed that with the vive tracker, a headset and a battery the headset gets a bit too heavy for long sessions of fast Synth Riders. Now I often use a USB Powerbank that I mounted at my back or hip and a long USB cable.
         - Can be upgraded to be compatible with the Quest 3 (irreversible)
     - KIWI design Knuckle Grips Cover with Battery Opening for Quest 2
         - Still not 100% sure if they are _the_ best, but they are good enough. They make the controllers feel a bit more bulky.
@@ -35,6 +36,15 @@ What I use and like:
     - **Batteries** for the controllers
         - VARTA Recharge Accu Solar AA 800mAh - because they are noticeably lighter than normal batteries. Only 15g vs. 30g.
             - https://www.varta-ag.com/de/konsument/produktkategorien/akkus/solar-aa-800-mah
+    - **Powerbank**
+        - I use an old Anker Powerbank with 20100mAh mounted to my back or hip with a long USB cable down my back. It "loads slow" but keeps the Quest 3 working for well over 5 hours. I think an upgrade to a 20kmAH quick charging power bank could be wild :O
+    - **neck fan**
+        - [a cheap, light, neck fan with built-in battery](https://www.amazon.de/gp/product/B09P11TGWT). Initially just for the lulz, but there is a tiny chance that this thing saved my life during the summer, when I was playing Synth Riders for hours :D
+- Audio
+    - **Headphones**
+        - I wear Bose QC25 almost every hour of the day, so I stick with them for VR. I like the noise-canceling for immersion.
+    - **Microphone**
+        - I went with the [Antlion ModMic Wireless](https://antlionaudio.com/products/modmic-wireless). Just because everyone recommends it and I bought too many shitty microphones in the past to try out another one.
 
 ##### Nice to know
 
@@ -100,7 +110,7 @@ TLDR: **Get the Valve Index Base Stations!**
     - The Valve Base Stations do include a mount<3.
 - The cable of the Valve Base Stations is almost double the length of the HTC Base Stations! 4.5m vs. 2.5m.
 
-##### Ordering
+##### Ordering (in Germany)
 
 At this time - July 2024 - the official Valve Steam store offers the best price on Valve Base Stations. 159€ vs. >= 205€ anywhere else - which feels weird... but ordering from Steam directly worked out perfectly, and they arrived within the estimated `3-5 Business Days`!
 
@@ -146,7 +156,47 @@ Seems to work without an Index Headset, just plug them in and update via SteamVR
 
 ##### Update Vive Tracker Firmware
 
-Seems to work without an Index Headset, just plug them in and update via SteamVR: https://www.vive.com/eu/support/tracker3/category_howto/updating-the-firmware.html
+Seems to work without an Index Headset, just plug them in and update via SteamVR(it will tell you if they need an update): https://www.vive.com/eu/support/tracker3/category_howto/updating-the-firmware.html
+
+##### Charging the Trackers
+
+The Tracker come with a USB-C Cable for the dongles, that could be used for charging too - but you need to unplug everything...  
+So the lazy me bought a separate charging setup, which I can confirm works fine:
+
+- USB-C Hub, [UGREEN USB-C Hub 10 Gbps, 4x USB-C](https://www.amazon.de/dp/B0CR6JBJDH)
+- 3x USB-C to USB-C Cable, [in cute pastel blue](https://www.amazon.de/dp/B0CNSQFNZW)
+- USB-C Charger, [Anker 20W USB C](https://www.amazon.de/dp/B0CF8X4H77)
+
+##### Straps for the Trackers
+
+There are a few, I went with the only one that were in stock at Amazon: [AMVR Tracker Belt + Straps](https://www.amazon.de/dp/B07P94L5JG)  
+They are fine... but a bit clunky. But tracker straps are somewhat pricey to buy and try out a few different ones :/.
+
+- The company that develops the Game Dance Dash sells very cool straps and belts(including one with **built-in battery!**): https://rebuffreality.com/collections/full-body-tracking
+- EOZ VR often gets recommended: https://www.eozvr.com/products/eozstraps
+    - they have special editions from collaborations like Trans Academy<3: https://www.eozvr.com/products/ta-x-eoz
+
+##### Mounting the Tracker on the headset
+
+The tracker should be mounted:
+
+- securely to not fly away during fast synth riders sessions
+- so that they can be easily removed to use the Quest without the tracker
+- in a place that don't make the headset unbalanced. so not left or right of the headset or in a mount that sticks out too much
+- not so that it sticks out on the front or left or right. It would block the cameras and even worse: it would get 100% smashed during Beatsaber or Synth Riders(tried it out for you<3)
+- in a place so that it gets a good view of the base stations (that's why I mounted mine a bit to the right of the headset)
+
+so ideally:
+
+- on the top of the headset
+- on the back of the headset
+
+There a few cool solutions on reddit, but I only found one product on Amazon DE that seemed fitting: [a cheap shoe adapter](https://www.amazon.de/dp/B08HHLG5QL)
+
+Drilled a hole in the BoboVR head strap and now have a screw that holds the tracker in place:
+![mounting for the tracker](bobovr_trackermount.png)
+
+works perfectly.
 
 ### Software - Bringing Quest and Vive Trackers together
 
