@@ -2,6 +2,22 @@
 
 ## Hardware
 
+### My current headset setup
+
+![my current Quest3 setup](current_quest3_setup.jpg)
+
+1. Cable for Headphone *permanently* attached to be able to detach the headphones without having to re-organize the cable every time. Use a cable without a mic to easily use the Quests Mic or an external one without having to mess with the settings.
+2. ModMic Wireless
+3. AMVR Face Cover Pad Facial Interface
+4. extra Cushing (taken from the BOBOVR Strap)
+5. I replaced the Velcro strap that came with the BOBOVR Strap with a longer one to have it fit better
+6. Bose QC25. Placed in the front in *idle mode* or when I take the headset of
+7. Extra Velcro strap and re-usable, extra wide cable ties to guide and hold all sorts of cables and attach stuff when needed
+8. Vive Tracker for Continuous Tracking
+9. Anker 20100mAh Powerbank with added re-usable cable ties to attach it to my back/belt/somewhere other than my head and my trouser pockets
+10. more Velcro straps to hold cables
+11. obligatory googly eyes
+
 ### Quest 2 and Quest 3
 
 - Quest 2 is totally fine. Even in 2024. It's simply the cheapest and best-supported standalone VR headset on the market.
@@ -26,6 +42,7 @@ What I use and like:
         - It closes the annoying gap between the nose and the headset.
         - It advertises better airflow, but I wouldn't say it's noticeable.
         - It is a lot bulkier than other face covers; I'm still not 100% sure if it's the best option, but good enough for now.
+        - tip: the cover fits in the gap in the Quest... it just takes a bit of wiggle to get it in.
 - Misc
     - **USB-C cable**
         - INIU Link Cable. 5m, with additional USB-C input to inject power for continuous charging
@@ -45,6 +62,9 @@ What I use and like:
         - I wear Bose QC25 almost every hour of the day, so I stick with them for VR. I like the noise-canceling for immersion.
     - **Microphone**
         - I went with the [Antlion ModMic Wireless](https://antlionaudio.com/products/modmic-wireless). Just because everyone recommends it and I bought too many shitty microphones in the past to try out another one.
+        - light downsides:
+            - easily flies of the headset when jumping around in Synth Riders or active games
+            - only comes with two magnetic mounts, so you have to buy more if you want to use it on multiple headsets. 3 additional mounts cost around 11€... which is somewhat acceptable I guess.
 
 ##### Nice to know
 
@@ -194,9 +214,18 @@ so ideally:
 There a few cool solutions on reddit, but I only found one product on Amazon DE that seemed fitting: [a cheap shoe adapter](https://www.amazon.de/dp/B08HHLG5QL)
 
 Drilled a hole in the BoboVR head strap and now have a screw that holds the tracker in place:
-![mounting for the tracker](bobovr_trackermount.png)
+![mounting for the tracker](bobovr_trackermount.jpg)
+![mounting for the tracker screw detail](bobovr_trackermount_screw.jpg)
 
 works perfectly.
+
+###### workaround without the right screws
+
+Fortunately, plastic of the BOBOVR strap gives lots of places to attach stuff to it.   
+During the first week I attached the tracker with a few cable ties from multiple angles to hold it tightly - worked good enough.
+
+Somewhat like this:
+![mounting the tracker with zip ties](bobovr_tracker_mount_ziptie.jpg)
 
 ### Software - Bringing Quest and Vive Trackers together
 
