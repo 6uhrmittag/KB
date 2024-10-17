@@ -7,6 +7,7 @@
         - [other](blog/dev/other.md)
 - Notes
     - [Notes](notes/)
+    - [Trans stuff🏳️‍⚧️](trans/)
     - [Book notes](booknotes/)
     - [Book reference](booknotes/books.md)
     - [Random IT](notes/random_computer.md)
