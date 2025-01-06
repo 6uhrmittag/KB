@@ -26,8 +26,10 @@
     - [Game Modding](tools/gaming_modding.md)
 - [VirtualReality(VR)](VirtualReality(VR)/)
 - [Programming](programming/)
-  - [PowerShell Scripting](programming/PowerShell_Scripting.md)
+    - [PowerShell Scripting](programming/PowerShell_Scripting.md)
 - [Resources](resources/)
+    - [random IT](resources/)
+    - [AI + LLM](resources/ai_llm.md)
 - Checklists
     - [Server](checklists/server.md)
 - Workstation Setup

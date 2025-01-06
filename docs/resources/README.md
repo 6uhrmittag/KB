@@ -1,4 +1,4 @@
-# resources
+# resources - random IT topics
 
 ## windows
 
