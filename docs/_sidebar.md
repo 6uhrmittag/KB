@@ -15,7 +15,6 @@
 - Tools
     - [Usefull tools](tools/)
     - [Testing tools](tools/testing.md)
-    - [Testing tools](tools/windows.md)
     - [Azure/AzureAD](tools/azure.md)
     - [Vagrant](tools/vagrant.md)
     - [BSI Tools](tools/bsi.md)
