@@ -1,4 +1,8 @@
-# Virtual Reality (VR)
+# VR Setup : wireless Quest 3 + Full Body Tracking
+
+!> For reference: Initially set up around July 2024.
+
+Notes on my VR setup.
 
 ## Hardware
 
