@@ -52,6 +52,13 @@ As of 2024/2025 there are just 2+1/2 ways to record custom avatars in VR:
     - Demos
         - VMC and Synth Riders:
             - https://www.youtube.com/watch?v=TE-qsOfweM4
+    - Hack: use Quest Passthrough with any game by using Virtual Desktops greenscreen feature
+        - by combining Virtual Desktop's greenscreen chromakey feature + any game that includes green/blue screen levels(e.g. a greenroom world in VRChat)
+        - Demo:
+            - https://www.youtube.com/watch?v=OCQG6Dqarvs
+                - LunchAndVR - How to use Mixed Reality with PCVR games (Virtual Desktop Passthrough)
+            - https://www.youtube.com/watch?v=j0TxmDyHS24
+                - Artur's Tech Tales - Mixed Reality Passthrough - Blending Realities & Virtual Desktop Set-Up
 - Games with built-in avatar support
     - Synth Riders has a built-in avatar feature
         - unfortunately no FBT support, so no legs+hips
