@@ -12,7 +12,7 @@
     - [Book reference](booknotes/books.md)
     - [Random IT](notes/random_computer.md)
 - [💡Cheatsheet](cheatsheet/)
-- Tools
+- [Tools](tools/)
     - [Usefull tools](tools/)
     - [Testing tools](tools/testing.md)
     - [Azure/AzureAD](tools/azure.md)
@@ -23,7 +23,7 @@
     - [ELK-Stack](tools/elk_logstash.md)
     - [Muse Score](tools/MuseScore.md)
     - [Game Modding](tools/gaming_modding.md)
-- VirtualReality(VR)
+- [VirtualReality(VR)](VirtualReality(VR)/setup/)
     - [VR Setup](VirtualReality(VR)/setup/)
     - [Recording VR](VirtualReality(VR)/recording/)
 - [Programming](programming/)
