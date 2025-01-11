@@ -3,25 +3,26 @@
 ## Tools and ways to record VR
 
 - **OBS-OpenVR-Input-Plugin** _[easiest since in OBS directly]_
-    - [https://github.com/baffler/OBS-OpenVR-Input-Pluginit's](https://github.com/baffler/OBS-OpenVR-Input-Pluginit's)
-    - OBS page includes a few instructions for cropping: [https://obsproject.com/forum/resources/openvr-input-plugin.534/](https://obsproject.com/forum/resources/openvr-input-plugin.534/)
+    - https://github.com/baffler/OBS-OpenVR-Input-Plugin
+    - OBS page includes a few instructions for cropping: https://obsproject.com/forum/resources/openvr-input-plugin.534/
 - **SteamVR Mirror Window** _[a bit more convinient]_
     - plain capture via OBS Game Capture
 - **Metas Debugging tools to record**(*more or less all the same, IMHO offering the most advanced settings, no audio)*
     - OculusMirror.exe _[I believe wired only?!]_
-        - [https://developers.meta.com/horizon/documentation/native/pc/dg-compositor-mirror/](https://developers.meta.com/horizon/documentation/native/pc/dg-compositor-mirror/)
+        - https://developers.meta.com/horizon/documentation/native/pc/dg-compositor-mirror/
     - Meta Quest Developer Hub (MQDH) _[wireless casting via BetaCast 2.0]_
-        - [https://developers.meta.com/horizon/documentation/unity/ts-odh-media/https://www.vr-wave.store/de-de/blogs/virtual-reality-prescription-lenses/how-to-record-gameplay-on-the-meta-quest-3](https://developers.meta.com/horizon/documentation/unity/ts-odh-media/https://www.vr-wave.store/de-de/blogs/virtual-reality-prescription-lenses/how-to-record-gameplay-on-the-meta-quest-3)
+        - https://developers.meta.com/horizon/documentation/unity/ts-odh-media/
+        - https://www.vr-wave.store/de-de/blogs/virtual-reality-prescription-lenses/how-to-record-gameplay-on-the-meta-quest-3
 - **built-in Quest wireless casting** _[requires to cast to Firefox to capture with OBS, rather lame solution]_
-    - [https://www.meta.com/help/quest/articles/in-vr-experiences/oculus-features/cast-with-quest/](https://www.meta.com/help/quest/articles/in-vr-experiences/oculus-features/cast-with-quest/)
+    - https://www.meta.com/help/quest/articles/in-vr-experiences/oculus-features/cast-with-quest/
 - **built-in Quest recording** _[convenient, adds min. 5ms latency in my experiments]_
-    - [https://www.meta.com/help/quest/articles/in-vr-experiences/social-features-and-sharing/record-video-oculus/](https://www.meta.com/help/quest/articles/in-vr-experiences/social-features-and-sharing/record-video-oculus/)
+    - https://www.meta.com/help/quest/articles/in-vr-experiences/social-features-and-sharing/record-video-oculus/
 - **Sidequest to enhance built-in casting/recording** _[improves performance + quality]_
     - enhanced quality for local recording enhanced quality for wireless casting (no audio I believe)
     - ability to set CPU+GPU to max. level for optimization
     - mirroring via scrcpy, but not worth it having all other options
 - **LIV** _[adds nothing for plain recording, but a bit more convenient, adds more advanced features]_
-    - [https://help.liv.tv/hc/en-us/articles/14408182394642-How-to-use-your-Quest-with-LIV](https://help.liv.tv/hc/en-us/articles/14408182394642-How-to-use-your-Quest-with-LIV)
+    - https://help.liv.tv/hc/en-us/articles/14408182394642-How-to-use-your-Quest-with-LIV
 
 ### Advanced methods/links
 
