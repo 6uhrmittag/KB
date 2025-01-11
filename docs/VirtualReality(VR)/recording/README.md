@@ -45,7 +45,12 @@ As of 2024/2025 there are just 2+1/2 ways to record custom avatars in VR:
     - VMC
         - https://github-com.translate.goog/gpsnmeajp/EasyVirtualMotionCaptureForUnity?_x_tr_sl=ja&_x_tr_tl=de&_x_tr_hl=de&_x_tr_pto=sc
         - documentation(translated): https://gpsnmeajp-github-io.translate.goog/EasyVirtualMotionCaptureForUnity-documents/?_x_tr_sl=ja&_x_tr_tl=de&_x_tr_hl=de&_x_tr_pto=sc
-    - Setup Guide: https://dance-dash.fandom.com/wiki/Using_VMC_(Virtual_Motion_Capture)_for_Avatar_Tracking
+    - Setup Guides:
+        - https://dance-dash.fandom.com/wiki/Using_VMC_(Virtual_Motion_Capture)_for_Avatar_Tracking
+        - https://www.youtube.com/watch?v=diGjkjZM2n8
+    - Demos
+        - VMC and Synth Riders:
+            - https://www.youtube.com/watch?v=TE-qsOfweM4
 - Games with built-in avatar support
     - Synth Riders has a built-in avatar feature
         - unfortunately no FBT support, so no legs+hips
